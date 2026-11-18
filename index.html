@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Breve História da Igreja</title>
+  <meta name="description" content="Linha do tempo interativa da história da Igreja, do ano 0 a 2000.">
+  <meta name="theme-color" content="#f4ecdc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17140f" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icone-192.png">
+  <link rel="apple-touch-icon" href="img/icone-180.png">
+  <meta name="apple-mobile-web-app-title" content="História da Igreja">
+</head>
+<body data-epoca="antiga">
+  <!-- Ícones das categorias -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-concilios" viewBox="0 0 24 24"><path d="M3 22h18M6 18v-7M10 18v-7M14 18v-7M18 18v-7M12 2l8 5H4z"/></symbol>
+      <symbol id="i-doutrina" viewBox="0 0 24 24"><path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/></symbol>
+      <symbol id="i-movimentos" viewBox="0 0 24 24"><path d="M12 2v4M10 4h4M18 22V10l-6-4-6 4v12M4 22h16M10 22v-4a2 2 0 0 1 4 0v4"/></symbol>
+      <symbol id="i-avivamento" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+      <symbol id="i-biblia" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+      <symbol id="i-perseguicao" viewBox="0 0 24 24"><path d="M12 2v20M6 8h12"/></symbol>
+      <symbol id="i-reforma" viewBox="0 0 24 24"><path d="m15 12-8.5 8.5a2.12 2.12 0 1 1-3-3L12 9M17.64 15 22 10.64"/><path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"/></symbol>
+      <symbol id="i-teologos" viewBox="0 0 24 24"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5zM16 8 2 22M17.5 15H9"/></symbol>
+      <symbol id="i-buscar" viewBox="0 0 24 24"><path d="m21 21-4.3-4.3M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/></symbol>
+      <symbol id="i-roteiros" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+      <symbol id="i-apresentar" viewBox="0 0 24 24"><path d="M2 3h20M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3M7 21l5-5 5 5"/></symbol>
+      <symbol id="i-historia" viewBox="0 0 24 24"><path d="M5 22h14M5 2h14M17 22v-4.17a2 2 0 0 0-.59-1.42L12 12l-4.41 4.41A2 2 0 0 0 7 17.83V22M7 2v4.17a2 2 0 0 0 .59 1.42L12 12l4.41-4.41A2 2 0 0 0 17 6.17V2"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Fundos das épocas (trocam com transição suave) -->
+  <div class="fundos" aria-hidden="true">
+    <div class="fundo" data-epoca="antiga"></div>
+    <div class="fundo" data-epoca="media"></div>
+    <div class="fundo" data-epoca="moderna"></div>
+    <div class="fundo" data-epoca="contemporanea"></div>
+  </div>
+
+  <!-- Abertura -->
+  <section class="abertura" id="abertura" aria-labelledby="aberturaTitulo">
+    <div class="abertura-conteudo">
+      <p class="abertura-sobre">Breve</p>
+      <h2 class="abertura-titulo" id="aberturaTitulo">História da Igreja</h2>
+      <p class="abertura-sub">Dois mil anos de fé, em <span id="totalEventos">125</span> momentos</p>
+      <div class="abertura-linha" aria-hidden="true">
+        <span class="traco"></span>
+        <span class="marco-ab" style="--x:0%;--d:.9s"><i></i><b>0</b></span>
+        <span class="marco-ab" style="--x:23.8%;--d:1.1s"><i></i><b>476</b></span>
+        <span class="marco-ab" style="--x:72.65%;--d:1.3s"><i></i><b>1453</b></span>
+        <span class="marco-ab acima" style="--x:89.45%;--d:1.5s"><i></i><b>1789</b></span>
+        <span class="marco-ab" style="--x:100%;--d:1.7s"><i></i><b>2000</b></span>
+      </div>
+      <button class="btn-comecar" id="btnComecar" type="button">Começar a jornada <span aria-hidden="true">→</span></button>
+      <p class="abertura-autor">Pr. Sérgio Ribeiro</p>
+    </div>
+  </section>
+
+  <header class="topo">
+    <div class="topo-linha">
+      <h1 class="marca"><button id="btnInicio" type="button" title="Voltar à abertura"><span>Breve</span> História da Igreja</button></h1>
+      <div class="ano-atual" aria-live="polite" aria-label="Ano em foco">
+        <span id="anoAtual">0</span><small>d.C.</small>
+      </div>
+    </div>
+    <nav class="epocas" id="epocas" aria-label="Épocas"></nav>
+    <div class="roteiro-ativo" id="roteiroAtivo" hidden>
+      <span id="roteiroTexto"></span>
+      <button id="btnSairRoteiro" type="button" aria-label="Sair do roteiro e ver a linha completa">×</button>
+    </div>
+  </header>
+
+  <main class="palco">
+    <div class="marca-dagua" id="marcaDagua" aria-hidden="true"></div>
+    <p class="dica" id="dica">Deslize para navegar · toque para ler</p>
+    <div class="trilha" id="trilha" tabindex="-1" aria-label="Linha do tempo. Use as setas para navegar."></div>
+    <p class="aviso" id="aviso" hidden></p>
+  </main>
+
+  <footer class="rodape">
+    <button class="nav-btn" id="btnAnterior" type="button" aria-label="Evento anterior">‹</button>
+    <div class="ferramentas">
+      <button class="ferr-btn" id="btnRoteiros" type="button" aria-haspopup="dialog">
+        <svg class="ic" aria-hidden="true"><use href="#i-buscar"/></svg><span>Explorar</span>
+      </button>
+      <button class="ferr-btn" id="btnApresentar" type="button" aria-pressed="false">
+        <svg class="ic" aria-hidden="true"><use href="#i-apresentar"/></svg><span class="txt-ligar">Apresentar</span><span class="txt-sair">Sair</span>
+      </button>
+    </div>
+    <button class="nav-btn" id="btnProximo" type="button" aria-label="Próximo evento">›</button>
+  </footer>
+
+  <div class="painel-fundo" id="painelFundo" hidden></div>
+  <section class="painel" id="painel" role="dialog" aria-modal="true" aria-labelledby="painelTitulo" hidden>
+    <div class="painel-alca" id="painelAlca" aria-hidden="true"></div>
+    <button class="painel-fechar" id="painelFechar" type="button" aria-label="Fechar">×</button>
+    <div class="painel-conteudo" id="painelConteudo"></div>
+    <div class="painel-nav">
+      <button id="painelAnterior" type="button">‹ Anterior</button>
+      <button id="painelProximo" type="button">Próximo ›</button>
+    </div>
+  </section>
+
+  <div class="painel-fundo" id="folhaFundo" hidden></div>
+  <section class="painel folha" id="folhaRoteiros" role="dialog" aria-modal="true" aria-labelledby="folhaTitulo" hidden>
+    <div class="painel-alca" aria-hidden="true"></div>
+    <button class="painel-fechar" id="folhaFechar" type="button" aria-label="Fechar">×</button>
+    <div class="painel-conteudo">
+      <h2 class="folha-titulo" id="folhaTitulo">Explorar</h2>
+      <label class="busca">
+        <svg class="ic" aria-hidden="true"><use href="#i-buscar"/></svg>
+        <input id="campoBusca" type="search" placeholder="Buscar evento, pessoa ou ano…" autocomplete="off" enterkeyhint="search" aria-label="Buscar na linha do tempo">
+      </label>
+      <ul class="resultados" id="resultados" aria-live="polite" hidden></ul>
+      <div id="blocoExplorar">
+        <h3 class="folha-secao">Filtrar por categoria <button class="limpar" id="btnLimparFiltro" type="button" hidden>Limpar</button></h3>
+        <div class="chips-filtro" id="chipsFiltro"></div>
+        <h3 class="folha-secao">Roteiros de aula</h3>
+        <p class="folha-sub">Percorra só os eventos de um tema. Ideal para aulas e estudos.</p>
+        <ul class="lista-roteiros" id="listaRoteiros"></ul>
+        <div class="instalar" id="blocoInstalar" hidden>
+          <h3 class="folha-secao">Usar sem internet</h3>
+          <p class="folha-sub" id="textoInstalar">Instale o site no seu celular para abrir como um aplicativo, mesmo sem internet.</p>
+          <button class="btn-instalar" id="btnInstalar" type="button" hidden>Instalar no aparelho</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

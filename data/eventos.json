@@ -1,0 +1,1643 @@
+{
+  "meta": {
+    "titulo": "Breve História da Igreja",
+    "autor": "Pr. Sérgio Ribeiro",
+    "baseadoEm": "Linha do Tempo - História da Igreja (PDF, jan/2025)",
+    "periodo": [
+      0,
+      2000
+    ],
+    "versao": "0.4 - roteiros de aula"
+  },
+  "categorias": [
+    {
+      "id": "concilios",
+      "nome": "Concílios",
+      "nomeCurto": "Concílios",
+      "cor": "#5B4BB7"
+    },
+    {
+      "id": "doutrina",
+      "nome": "Desenvolvimentos doutrinários e práticas",
+      "nomeCurto": "Doutrinas e práticas",
+      "cor": "#8E44AD"
+    },
+    {
+      "id": "movimentos",
+      "nome": "Igrejas e movimentos",
+      "nomeCurto": "Igrejas e movimentos",
+      "cor": "#1F8FA6"
+    },
+    {
+      "id": "avivamento",
+      "nome": "Avivamentos e missões",
+      "nomeCurto": "Avivamentos",
+      "cor": "#E0662C"
+    },
+    {
+      "id": "biblia",
+      "nome": "Bíblia e traduções",
+      "nomeCurto": "Bíblia",
+      "cor": "#8B5E34"
+    },
+    {
+      "id": "perseguicao",
+      "nome": "Perseguições e mártires",
+      "nomeCurto": "Perseguições",
+      "cor": "#C0392B"
+    },
+    {
+      "id": "reforma",
+      "nome": "Reforma e precursores",
+      "nomeCurto": "Reforma",
+      "cor": "#C9971C"
+    },
+    {
+      "id": "teologos",
+      "nome": "Pais da Igreja e teólogos",
+      "nomeCurto": "Teólogos",
+      "cor": "#2E7D5B"
+    },
+    {
+      "id": "historia",
+      "nome": "História geral",
+      "nomeCurto": "História geral",
+      "cor": "#4A4A4A"
+    }
+  ],
+  "epocas": [
+    {
+      "id": "antiga",
+      "nome": "Idade Antiga",
+      "inicio": 0,
+      "fim": 476,
+      "marcoFinal": "Queda do Império Romano do Ocidente"
+    },
+    {
+      "id": "media",
+      "nome": "Idade Média",
+      "inicio": 476,
+      "fim": 1453,
+      "marcoFinal": "Queda de Constantinopla"
+    },
+    {
+      "id": "moderna",
+      "nome": "Idade Moderna",
+      "inicio": 1453,
+      "fim": 1789,
+      "marcoFinal": "Revolução Francesa"
+    },
+    {
+      "id": "contemporanea",
+      "nome": "Idade Contemporânea",
+      "inicio": 1789,
+      "fim": 2000
+    }
+  ],
+  "faixas": [
+    {
+      "id": "imperio-romano",
+      "nome": "Império Romano (Ocidente)",
+      "inicio": -27,
+      "fim": 476,
+      "tipo": "imperio"
+    },
+    {
+      "id": "imperio-bizantino",
+      "nome": "Império Bizantino",
+      "inicio": 395,
+      "fim": 1453,
+      "tipo": "imperio"
+    },
+    {
+      "id": "imperio-otomano",
+      "nome": "Império Otomano",
+      "inicio": 1299,
+      "fim": 1922,
+      "tipo": "imperio",
+      "nota": "PDF: 1453 a 1923. O império surgiu em 1299; 1453 é a tomada de Constantinopla. O sultanato foi abolido em 1922 (República Turca em 1923)."
+    },
+    {
+      "id": "cruzadas",
+      "nome": "Cruzadas",
+      "inicio": 1095,
+      "fim": 1291,
+      "tipo": "periodo"
+    },
+    {
+      "id": "renascimento",
+      "nome": "Renascimento",
+      "inicio": 1300,
+      "fim": 1600,
+      "tipo": "periodo",
+      "aprox": true
+    },
+    {
+      "id": "inquisicao-medieval",
+      "nome": "Inquisição medieval (papal)",
+      "inicio": 1231,
+      "fim": 1542,
+      "tipo": "inquisicao",
+      "nota": "PDF: 'Inquisição Romana 1233 a 1821'. Separado em medieval (Gregório IX, 1231) e romana (1542)."
+    },
+    {
+      "id": "inquisicao-romana",
+      "nome": "Inquisição Romana",
+      "inicio": 1542,
+      "fim": 1908,
+      "tipo": "inquisicao",
+      "nota": "Criada por Paulo III em 1542; em 1908 passou a se chamar Congregação do Santo Ofício."
+    },
+    {
+      "id": "inquisicao-espanhola",
+      "nome": "Inquisição Espanhola",
+      "inicio": 1478,
+      "fim": 1834,
+      "tipo": "inquisicao",
+      "nota": "PDF: até 1820. Foi suspensa em 1820 e abolida definitivamente em 1834."
+    },
+    {
+      "id": "inquisicao-portuguesa",
+      "nome": "Inquisição Portuguesa",
+      "inicio": 1536,
+      "fim": 1821,
+      "tipo": "inquisicao",
+      "nota": "PDF: desde 1531 (ano do pedido ao papa). A bula que a instituiu é de 1536."
+    }
+  ],
+  "roteiros": [
+    {
+      "id": "igreja-primitiva",
+      "nome": "A Igreja Primitiva",
+      "descricao": "Dos apóstolos ao fim das perseguições (51-313).",
+      "eventos": [
+        "concilio-jerusalem",
+        "nero",
+        "morte-paulo",
+        "queda-jerusalem",
+        "domiciano",
+        "trajano",
+        "morte-joao",
+        "inacio",
+        "antonino-pio",
+        "traducoes-latim",
+        "montanismo",
+        "marco-aurelio",
+        "tertuliano",
+        "origenes",
+        "decio",
+        "valeriano",
+        "diocleciano",
+        "constantino",
+        "edito-milao"
+      ]
+    },
+    {
+      "id": "concilios",
+      "nome": "Os Concílios",
+      "descricao": "De Jerusalém ao Vaticano II: o que cada concílio decidiu.",
+      "eventos": [
+        "concilio-jerusalem",
+        "concilio-niceia",
+        "constantinopla-1",
+        "cartago-397",
+        "cartago-419",
+        "efeso",
+        "calcedonia",
+        "constantinopla-2",
+        "constantinopla-3",
+        "niceia-2",
+        "constantinopla-4",
+        "latrao-1",
+        "latrao-2",
+        "latrao-3",
+        "latrao-4",
+        "lyon-1",
+        "lyon-2",
+        "vienne",
+        "constanca",
+        "basileia-florenca",
+        "latrao-5",
+        "trento",
+        "vaticano-1",
+        "vaticano-2"
+      ]
+    },
+    {
+      "id": "doutrinas",
+      "nome": "Doutrinas: Roma e a Reforma",
+      "descricao": "Como surgiram práticas e dogmas, e o que os reformadores responderam.",
+      "eventos": [
+        "primado-roma",
+        "oracao-mortos",
+        "velas",
+        "veneracao-santos",
+        "missa",
+        "theotokos",
+        "bispo-universal",
+        "veneracao-imagens",
+        "celibato",
+        "terco",
+        "transubstanciacao",
+        "purgatorio",
+        "florenca-canon",
+        "apocrifos",
+        "infalibilidade",
+        "assuncao",
+        "missa-vernacula",
+        "reforma-protestante"
+      ]
+    },
+    {
+      "id": "reforma",
+      "nome": "A Reforma Protestante",
+      "descricao": "Precursores, a Reforma e seus desdobramentos (1328-1611).",
+      "eventos": [
+        "wycliffe",
+        "biblia-wycliffe",
+        "constanca",
+        "joao-huss",
+        "prensa",
+        "savonarola",
+        "reforma-protestante",
+        "henrique-8",
+        "biblia-lutero",
+        "tyndale",
+        "contrarreforma",
+        "trento",
+        "apocrifos",
+        "presbiteriana",
+        "puritanismo",
+        "sao-bartolomeu",
+        "batista",
+        "remonstrancia",
+        "king-james"
+      ]
+    },
+    {
+      "id": "biblia",
+      "nome": "A Bíblia através dos séculos",
+      "descricao": "Cânon, traduções e a imprensa: como a Bíblia chegou até nós.",
+      "eventos": [
+        "traducoes-latim",
+        "cartago-397",
+        "vulgata",
+        "cartago-419",
+        "biblia-wycliffe",
+        "florenca-canon",
+        "prensa",
+        "biblia-lutero",
+        "tyndale",
+        "apocrifos",
+        "king-james",
+        "almeida",
+        "traducoes-carey"
+      ]
+    },
+    {
+      "id": "avivamentos",
+      "nome": "Avivamentos e Missões",
+      "descricao": "Do pietismo ao pentecostalismo (1675-1929).",
+      "eventos": [
+        "pietismo",
+        "jonathan-edwards",
+        "john-wesley",
+        "whitefield",
+        "metodista",
+        "pietismo-america",
+        "william-carey",
+        "traducoes-carey",
+        "finney",
+        "spurgeon",
+        "moody",
+        "holiness",
+        "igreja-de-deus",
+        "rua-azusa",
+        "ad-eua",
+        "ad-brasil",
+        "ad-madureira"
+      ]
+    },
+    {
+      "id": "brasil",
+      "nome": "O Protestantismo no Brasil",
+      "descricao": "Do primeiro culto em 1557 às Assembleias de Deus.",
+      "eventos": [
+        "primeiro-culto-brasil",
+        "almeida",
+        "independencia-brasil",
+        "luterana-brasil",
+        "presbiteriana-brasil",
+        "ad-brasil",
+        "ad-madureira"
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "id": "concilio-jerusalem",
+      "ano": 51,
+      "aprox": true,
+      "titulo": "Concílio de Jerusalém",
+      "categoria": "concilios",
+      "destaque": true,
+      "imagem": "img/concilio-jerusalem.webp",
+      "resumo": "Reunidos em Jerusalém, apóstolos e presbíteros discutiram se os gentios convertidos precisavam ser circuncidados e guardar a Lei de Moisés. Depois dos relatos de Pedro, Paulo e Barnabé e da palavra de Tiago, decidiram que a salvação é pela graça do Senhor Jesus, pedindo aos gentios apenas alguns cuidados para a convivência com os irmãos judeus. Foi a primeira grande decisão coletiva da Igreja.",
+      "fonte": "Atos 15; Justo L. González, História Ilustrada do Cristianismo, vol. 1",
+      "imagemPosicao": "center 20%",
+      "imagemCredito": {
+        "titulo": "São Pedro e São Paulo",
+        "autor": "El Greco",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Peter_and_Saint_Paul_-_Google_Art_Project.jpg"
+      }
+    },
+    {
+      "id": "nero",
+      "ano": 64,
+      "anoFim": 68,
+      "titulo": "Nero inicia a perseguição",
+      "categoria": "perseguicao",
+      "destaque": true,
+      "imagem": "img/nero.webp",
+      "resumo": "Depois do grande incêndio de Roma, em julho de 64, o imperador Nero culpou os cristãos. Segundo o historiador Tácito, muitos foram crucificados, lançados às feras ou queimados como tochas nos jardins imperiais. A tradição situa nessa perseguição o martírio de Pedro e, pouco depois, o de Paulo.",
+      "fonte": "Tácito, Anais XV.44; Justo L. González, História Ilustrada do Cristianismo, vol. 1",
+      "imagemCredito": {
+        "titulo": "As Tochas de Nero (1876)",
+        "autor": "Henryk Siemiradzki",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Henryk_Siemiradzki_-_Pochodnie_Nerona.jpg"
+      }
+    },
+    {
+      "id": "morte-paulo",
+      "ano": 67,
+      "aprox": true,
+      "titulo": "Martírio de Paulo",
+      "categoria": "perseguicao",
+      "destaque": true,
+      "imagem": "img/morte-paulo.webp",
+      "resumo": "Segundo a tradição antiga, o apóstolo Paulo foi decapitado em Roma no fim do governo de Nero. Suas viagens missionárias levaram o evangelho a grande parte do mundo greco-romano, e suas treze cartas formam boa parte do Novo Testamento. Em sua última carta escreveu: 'Combati o bom combate, completei a carreira, guardei a fé' (2Tm 4.7).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "São Paulo escrevendo suas cartas",
+        "autor": "Valentin de Boulogne",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Valentin_de_Boulogne_-_Saint_Paul_Writing_His_Epistles_-_BF.1991.4_-_Museum_of_Fine_Arts.jpg"
+      }
+    },
+    {
+      "id": "queda-jerusalem",
+      "ano": 70,
+      "titulo": "Destruição de Jerusalém e do Templo",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/queda-jerusalem.webp",
+      "resumo": "Após uma revolta judaica contra Roma iniciada em 66, as legiões de Tito cercaram Jerusalém e destruíram a cidade e o Templo. Segundo Eusébio, os cristãos haviam deixado a cidade antes, lembrando a advertência de Jesus (Lc 21.20-21). O fim do Templo acelerou a separação entre cristianismo e judaísmo, e o centro da fé cristã se deslocou para cidades como Antioquia, Éfeso e Roma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "O Cerco e a Destruição de Jerusalém (1850)",
+        "autor": "David Roberts",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:David_Roberts_-_The_Siege_and_Destruction_of_Jerusalem_by_the_Romans_Under_the_Command_of_Titus,_A.D._70.jpg"
+      }
+    },
+    {
+      "id": "domiciano",
+      "ano": 81,
+      "anoFim": 96,
+      "titulo": "Domiciano",
+      "categoria": "perseguicao",
+      "resumo": "Domiciano exigia ser tratado como 'senhor e deus' e, no fim de seu governo (c. 95), perseguiu os que recusavam o culto ao imperador, inclusive cristãos. Segundo a tradição, foi nesse período que o apóstolo João foi exilado na ilha de Patmos, onde recebeu as visões do Apocalipse.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "trajano",
+      "ano": 98,
+      "anoFim": 117,
+      "titulo": "Trajano",
+      "categoria": "perseguicao",
+      "resumo": "Por volta de 112, o governador Plínio, o Jovem, perguntou ao imperador como tratar os cristãos da Bitínia. Trajano respondeu que não deviam ser procurados, mas, se denunciados e se não negassem a fé, deviam ser punidos. Essa política manteve o cristianismo na ilegalidade por mais de um século; sob ela foi martirizado Inácio de Antioquia.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "morte-joao",
+      "ano": 100,
+      "aprox": true,
+      "titulo": "Morte do apóstolo João",
+      "categoria": "historia",
+      "resumo": "Segundo a tradição, João, o 'discípulo amado', foi o último dos apóstolos a morrer, já idoso, em Éfeso. A ele são atribuídos o Evangelho de João, três cartas e o Apocalipse. Com sua morte se encerra a era apostólica.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "inacio",
+      "ano": 110,
+      "aprox": true,
+      "titulo": "Inácio de Antioquia",
+      "categoria": "teologos",
+      "resumo": "Bispo de Antioquia, foi levado preso a Roma para ser lançado às feras no tempo de Trajano. No caminho escreveu sete cartas às igrejas, nas quais defende a unidade da igreja em torno de seus líderes, a verdadeira humanidade de Cristo e vê o martírio como imitação do Senhor. É dele o uso mais antigo conhecido da expressão 'Igreja católica', no sentido de universal.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "antonino-pio",
+      "ano": 138,
+      "anoFim": 161,
+      "titulo": "Antonino Pio",
+      "categoria": "perseguicao",
+      "resumo": "Seu governo foi de relativa estabilidade, sem perseguição geral. Mas as leis contra os cristãos continuavam válidas e houve violência local, como o martírio de Policarpo, bispo de Esmirna (c. 155). Nesse período, Justino Mártir dirigiu ao imperador sua Primeira Apologia em defesa dos cristãos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "traducoes-latim",
+      "ano": 150,
+      "aprox": true,
+      "titulo": "Primeiras traduções em latim (Vetus Latina)",
+      "categoria": "biblia",
+      "resumo": "Com o crescimento da Igreja no norte da África e no Ocidente, surgiram traduções da Bíblia para o latim, feitas por diferentes pessoas e de qualidade desigual. Esse conjunto ficou conhecido como Vetus Latina ('antiga latina') e foi usado até ser substituído pela Vulgata de Jerônimo.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "montanismo",
+      "ano": 156,
+      "aprox": true,
+      "titulo": "Movimento montanista",
+      "categoria": "movimentos",
+      "resumo": "Na Frígia (atual Turquia), Montano e as profetisas Priscila e Maximila anunciaram uma nova era do Espírito, com profecias em êxtase, rigor moral e a expectativa da volta iminente de Cristo. A Igreja rejeitou o movimento por colocar essas novas profecias acima do ensino apostólico. Tertuliano aderiu a ele no fim da vida.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "marco-aurelio",
+      "ano": 161,
+      "anoFim": 180,
+      "titulo": "Marco Aurélio",
+      "categoria": "perseguicao",
+      "resumo": "Imperador e filósofo estoico, via os cristãos com desprezo. Em seu governo houve perseguições locais violentas, como o martírio de Justino em Roma (c. 165) e o dos cristãos de Lyon e Vienne, na Gália (177).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "tertuliano",
+      "ano": 200,
+      "aprox": true,
+      "titulo": "Tertuliano",
+      "categoria": "teologos",
+      "resumo": "Advogado convertido em Cartago, foi o primeiro grande teólogo a escrever em latim. Defendeu os cristãos contra as acusações dos pagãos e introduziu termos como 'Trindade' (Trinitas) e 'pessoa' para falar de Deus. É dele a ideia de que o sangue dos mártires é semente de novos cristãos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "origenes",
+      "ano": 230,
+      "aprox": true,
+      "titulo": "Orígenes de Alexandria",
+      "categoria": "teologos",
+      "resumo": "Mestre da escola catequética de Alexandria e depois de Cesareia, foi o estudioso cristão mais produtivo de seu tempo. Organizou a Héxapla, comparação do Antigo Testamento em seis colunas, e escreveu comentários bíblicos e a primeira teologia sistemática. Algumas de suas ideias especulativas foram condenadas mais tarde. Morreu em consequência das torturas sofridas na perseguição de Décio.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "decio",
+      "ano": 249,
+      "anoFim": 251,
+      "titulo": "Décio",
+      "categoria": "perseguicao",
+      "resumo": "Em 250, Décio ordenou que todos os habitantes do Império oferecessem sacrifício aos deuses e obtivessem um certificado (libellus). Foi a primeira perseguição organizada em todo o Império. Muitos foram martirizados e muitos negaram a fé, o que gerou longos debates sobre como readmitir os que haviam caído.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "valeriano",
+      "ano": 253,
+      "anoFim": 260,
+      "titulo": "Valeriano",
+      "categoria": "perseguicao",
+      "resumo": "Em 257 e 258, Valeriano mirou os líderes: proibiu as reuniões, confiscou bens e mandou executar bispos, presbíteros e diáconos. Entre os mártires estão Cipriano, bispo de Cartago, e Sisto II, bispo de Roma, com seus diáconos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "diocleciano",
+      "ano": 284,
+      "anoFim": 305,
+      "titulo": "Diocleciano e a Grande Perseguição",
+      "categoria": "perseguicao",
+      "resumo": "A partir de 303, Diocleciano e seus coimperadores lançaram a perseguição mais dura de todas: templos destruídos, Escrituras queimadas, clérigos presos e, por fim, ordem de sacrifício para todos. No Oriente ela durou até 311-313. Foi a última grande perseguição antes do Édito de Milão.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "primado-roma",
+      "ano": 304,
+      "aprox": true,
+      "titulo": "Desenvolvimento do primado de Roma",
+      "categoria": "doutrina",
+      "resumo": "Por estar na capital do Império e guardar a memória de Pedro e Paulo, a igreja de Roma teve prestígio especial desde cedo. Ao longo dos séculos IV e V, seus bispos passaram a reivindicar autoridade sobre toda a Igreja, ideia que se consolidou com Leão I (440-461). O ano 304 vem de listas tradicionais e não marca um evento específico.",
+      "reforma": "Os reformadores rejeitaram a autoridade do papa sobre toda a Igreja, afirmando que Cristo é o único cabeça da Igreja (Ef 5.23) e que a autoridade final está nas Escrituras.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Início do papado - 304'. Não há um evento específico nesse ano; o primado do bispo de Roma se desenvolveu aos poucos e se consolidou com Leão I (440-461)."
+    },
+    {
+      "id": "oracao-mortos",
+      "ano": 310,
+      "aprox": true,
+      "titulo": "Orações pelos mortos",
+      "categoria": "doutrina",
+      "resumo": "Inscrições e escritos dos séculos II e III já mostram cristãos orando pelos falecidos e lembrando os mártires no aniversário de sua morte. Com o tempo, a prática se ligou às missas pelos mortos e, na Idade Média, à doutrina do purgatório.",
+      "reforma": "Os reformadores abandonaram as orações e missas pelos mortos, ensinando que a salvação é recebida pela fé nesta vida e que, ao morrer, o crente está com Cristo (Fp 1.23; Hb 9.27).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Culto pelos mortos - 310'. Data tradicional em listas protestantes; a prática aparece gradualmente desde o séc. II-III."
+    },
+    {
+      "id": "constantino",
+      "ano": 312,
+      "titulo": "Conversão de Constantino",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/constantino.webp",
+      "resumo": "Antes da batalha da Ponte Mílvia contra Maxêncio, em 312, Constantino teria visto um sinal no céu e mandado pintar nos escudos o monograma de Cristo. Vencedor, atribuiu a vitória ao Deus dos cristãos e passou a favorecer a Igreja. A sinceridade de sua conversão é debatida pelos historiadores; ele só foi batizado pouco antes de morrer, em 337.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "A Visão da Cruz",
+        "autor": "Escola de Rafael",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:School_of_Raphael_-_Vision_of_the_Cross.jpg"
+      }
+    },
+    {
+      "id": "edito-milao",
+      "ano": 313,
+      "titulo": "Édito de Milão",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/edito-milao.webp",
+      "resumo": "Em 313, os imperadores Constantino e Licínio garantiram liberdade de culto em todo o Império e mandaram devolver às igrejas os bens confiscados. Depois de quase 250 anos de perseguições intermitentes, os cristãos puderam se reunir e construir templos abertamente. A nova situação trouxe paz, mas também uma aproximação crescente entre a Igreja e o poder político.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo, vol. 1",
+      "imagemPosicao": "center 30%",
+      "imagemCredito": {
+        "titulo": "Cabeça colossal de Constantino (Museus Capitolinos)",
+        "autor": "autor desconhecido",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Head_Constantine_Musei_Capitolini_MC1072_(cropped).jpg"
+      }
+    },
+    {
+      "id": "velas",
+      "ano": 320,
+      "aprox": true,
+      "titulo": "Uso de velas no culto",
+      "categoria": "doutrina",
+      "resumo": "Lâmpadas e velas eram usadas por necessidade nas reuniões noturnas e nas catacumbas. A partir do século IV ganharam uso simbólico e devocional: em procissões, junto aos túmulos dos mártires e diante de imagens.",
+      "reforma": "As igrejas reformadas em geral retiraram as velas do culto, por associá-las à devoção a santos e imagens. Luteranos e anglicanos mantiveram seu uso como elemento litúrgico, sem valor de mérito.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Data tradicional em listas protestantes; difícil de comprovar."
+    },
+    {
+      "id": "concilio-niceia",
+      "ano": 325,
+      "titulo": "Concílio de Niceia",
+      "categoria": "concilios",
+      "destaque": true,
+      "imagem": "img/concilio-niceia.webp",
+      "resumo": "Convocado por Constantino, reuniu cerca de 300 bispos para responder ao arianismo, que negava a plena divindade de Cristo. O concílio afirmou que o Filho é \"da mesma substância\" (homoousios) do Pai e redigiu a primeira forma do Credo Niceno, base da fé trinitária confessada até hoje por católicos, ortodoxos e protestantes.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "imagemPosicao": "center 35%",
+      "imagemCredito": {
+        "titulo": "Ícone do Primeiro Concílio de Niceia",
+        "autor": "autor desconhecido",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Nicaea_icon.jpg"
+      }
+    },
+    {
+      "id": "agostinho",
+      "ano": 354,
+      "anoFim": 430,
+      "titulo": "Agostinho de Hipona",
+      "categoria": "teologos",
+      "resumo": "Nascido no norte da África, viveu uma juventude inquieta até se converter em Milão, em 386, ao ler Romanos 13.13-14. Bispo de Hipona por mais de 30 anos, escreveu as Confissões e A Cidade de Deus e combateu o pelagianismo, defendendo que a salvação depende inteiramente da graça de Deus. Foi o teólogo antigo mais citado por Lutero e Calvino.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "veneracao-santos",
+      "ano": 375,
+      "aprox": true,
+      "titulo": "Veneração dos santos",
+      "categoria": "doutrina",
+      "resumo": "Desde o século II os cristãos honravam os mártires e se reuniam junto a seus túmulos. Com o fim das perseguições, o costume cresceu: igrejas foram construídas sobre os túmulos, relíquias passaram a ser transladadas e os santos, invocados como intercessores.",
+      "reforma": "Os reformadores valorizaram o exemplo dos santos, mas rejeitaram sua invocação, afirmando que há um só mediador entre Deus e os homens, Jesus Cristo (1Tm 2.5).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Data tradicional em listas protestantes; o culto aos mártires cresce ao longo do séc. IV."
+    },
+    {
+      "id": "constantinopla-1",
+      "ano": 381,
+      "titulo": "I Concílio de Constantinopla",
+      "categoria": "concilios",
+      "resumo": "Convocado pelo imperador Teodósio, encerrou a controvérsia ariana. Os bispos afirmaram a plena divindade do Espírito Santo e ampliaram o Credo de Niceia, dando-lhe a forma conhecida como Credo Niceno-Constantinopolitano. Com isso, a doutrina da Trindade, um só Deus em três pessoas, ficou plenamente formulada.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Absorve o item 'Trindade - 432' do PDF: a doutrina da Trindade foi formulada em Niceia (325) e completada aqui, com a afirmação da divindade do Espírito Santo."
+    },
+    {
+      "id": "missa",
+      "ano": 394,
+      "aprox": true,
+      "titulo": "A missa como celebração diária",
+      "categoria": "doutrina",
+      "resumo": "Desde o início os cristãos celebravam a Ceia do Senhor. Com os séculos, a celebração ganhou uma liturgia cada vez mais elaborada e passou a ser entendida como sacrifício oferecido pelo sacerdote; o termo 'missa' aparece no fim do século IV.",
+      "reforma": "Os reformadores rejeitaram a ideia da missa como sacrifício repetido, ensinando que Cristo se ofereceu uma vez por todas (Hb 10.10-14). Restauraram a Ceia com pão e vinho para toda a congregação, na língua do povo.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Santa Missa - 394'. Data tradicional em listas protestantes; a liturgia eucarística se desenvolveu gradualmente."
+    },
+    {
+      "id": "divisao-imperio",
+      "ano": 395,
+      "titulo": "Império Romano dividido em Ocidente e Oriente",
+      "categoria": "historia",
+      "resumo": "Com a morte de Teodósio I, o Império Romano foi dividido entre seus filhos: Honório no Ocidente e Arcádio no Oriente, com capital em Constantinopla. A divisão tornou-se permanente e preparou caminhos diferentes para a Igreja latina, no Ocidente, e a Igreja grega, no Oriente.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "cartago-397",
+      "ano": 397,
+      "titulo": "Concílio de Cartago (cânon)",
+      "categoria": "concilios",
+      "resumo": "Os bispos do norte da África, reunidos em Cartago com a participação de Agostinho, confirmaram a lista de livros lidos nas igrejas, já aprovada em Hipona (393). Para o Novo Testamento, é a mesma lista de 27 livros aceita hoje por todas as tradições cristãs. A lista do Antigo Testamento incluía livros que os protestantes depois considerariam apócrifos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 387. O concílio que confirmou a lista dos livros do Novo Testamento foi em 397 (precedido pelo de Hipona, 393)."
+    },
+    {
+      "id": "vulgata",
+      "ano": 400,
+      "aprox": true,
+      "titulo": "Vulgata de Jerônimo",
+      "categoria": "biblia",
+      "destaque": true,
+      "imagem": "img/vulgata.webp",
+      "resumo": "A pedido de Dâmaso, bispo de Roma, Jerônimo revisou os Evangelhos latinos (382) e depois traduziu o Antigo Testamento diretamente do hebraico, trabalhando em Belém até cerca de 405. Sua versão, chamada Vulgata ('comum, popular'), foi a Bíblia da Igreja ocidental por mais de mil anos. Jerônimo distinguia os livros do cânon hebraico dos demais, que considerava úteis, mas não canônicos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "São Jerônimo",
+        "autor": "Caravaggio",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Saint_Jerome_-_Galleria_Borghese.jpg"
+      }
+    },
+    {
+      "id": "cartago-419",
+      "ano": 419,
+      "titulo": "Concílio de Cartago (cânon)",
+      "categoria": "concilios",
+      "resumo": "Novo concílio em Cartago reuniu e confirmou as decisões dos concílios africanos anteriores, inclusive a lista dos livros bíblicos, e as enviou a Roma. Tratou também da disciplina do clero e da relação entre as igrejas africanas e o bispo de Roma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "theotokos",
+      "ano": 431,
+      "titulo": "Maria proclamada \"Mãe de Deus\" (Theotokos)",
+      "categoria": "doutrina",
+      "resumo": "Nestório, patriarca de Constantinopla, recusava chamar Maria de Theotokos ('aquela que deu à luz Deus'). O Concílio de Éfeso afirmou o título para garantir que Jesus é uma só pessoa, verdadeiro Deus e verdadeiro homem desde o ventre. A afirmação era sobretudo sobre Cristo, mas a partir daí a devoção a Maria cresceu muito.",
+      "reforma": "Lutero e Calvino aceitaram o título no sentido de Éfeso, como afirmação sobre Cristo. Rejeitaram, porém, a invocação de Maria e os dogmas posteriores sobre ela, por não terem base nas Escrituras.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Culto à Maria - 431'. Reformulado: em Éfeso, o título Theotokos foi afirmado para proteger a unidade da pessoa de Cristo; a devoção mariana cresceu a partir daí."
+    },
+    {
+      "id": "efeso",
+      "ano": 431,
+      "titulo": "Concílio de Éfeso",
+      "categoria": "concilios",
+      "resumo": "Terceiro concílio ecumênico, condenou Nestório, acusado de dividir Cristo em duas pessoas, e afirmou que o Filho de Deus e o homem Jesus são uma só pessoa. Foi um concílio tumultuado: as alas de Alexandria e de Antioquia chegaram a se condenar mutuamente antes de um acordo, em 433.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "calcedonia",
+      "ano": 451,
+      "titulo": "Concílio de Calcedônia",
+      "categoria": "concilios",
+      "resumo": "O maior concílio da Antiguidade, com cerca de 500 bispos, definiu que Cristo é uma só pessoa em duas naturezas, divina e humana, 'sem confusão, sem mudança, sem divisão, sem separação'. A fórmula é aceita por católicos, ortodoxos e protestantes. Igrejas do Egito, da Síria e da Armênia não a aceitaram e formaram as chamadas Igrejas ortodoxas orientais.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "queda-roma",
+      "ano": 476,
+      "titulo": "Queda do Império Romano do Ocidente",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/queda-roma.webp",
+      "resumo": "Em 476, o chefe germânico Odoacro depôs Rômulo Augusto, o último imperador do Ocidente. Na desordem que se seguiu, a Igreja, e especialmente o bispo de Roma, tornou-se a principal instituição de continuidade, preservando a cultura e evangelizando os povos germânicos. O Império continuou no Oriente, com sede em Constantinopla. É o marco tradicional do início da Idade Média.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "O Curso do Império: Destruição (1836)",
+        "autor": "Thomas Cole",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg"
+      }
+    },
+    {
+      "id": "constantinopla-2",
+      "ano": 553,
+      "titulo": "II Concílio de Constantinopla",
+      "categoria": "concilios",
+      "resumo": "Convocado pelo imperador Justiniano, condenou os 'Três Capítulos', escritos de teólogos antioquenos considerados próximos de Nestório, numa tentativa de reconciliar os que rejeitavam Calcedônia. Também condenou ideias atribuídas a Orígenes. O papa Vigílio, pressionado pelo imperador, acabou aceitando as decisões.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "bispo-universal",
+      "ano": 607,
+      "titulo": "Bispo de Roma reconhecido como \"cabeça de todas as igrejas\"",
+      "categoria": "doutrina",
+      "resumo": "O papa Gregório Magno (590-604) havia protestado contra o patriarca de Constantinopla por usar o título de 'patriarca ecumênico'. Pouco depois, em 607, o imperador Focas reconheceu a sé de Roma como 'cabeça de todas as igrejas', a pedido do papa Bonifácio III. O episódio é visto como um passo importante na afirmação da supremacia papal.",
+      "reforma": "Os reformadores lembraram que o próprio Gregório Magno condenara como arrogante quem se dissesse bispo universal, e afirmaram que nenhum bispo tem autoridade sobre toda a Igreja, pois só Cristo é o seu cabeça.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 606. O reconhecimento do imperador Focas ao papa Bonifácio III foi em 607."
+    },
+    {
+      "id": "isla",
+      "ano": 622,
+      "titulo": "Início do Islã (Hégira de Maomé)",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/isla.webp",
+      "resumo": "Em 622, Maomé deixou Meca e foi para Medina; essa migração (Hégira) marca o início do calendário islâmico. Em poucas décadas, os exércitos árabes conquistaram a Síria, a Palestina, o Egito, a Pérsia e o norte da África, regiões que eram berço de grandes igrejas antigas. As comunidades cristãs sobreviveram em muitos lugares, mas como minorias.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemPosicao": "center 50%",
+      "imagemCredito": {
+        "titulo": "Mapa da expansão do califado",
+        "autor": "HistorianOfMuslimHistoryFromLithuania",
+        "licenca": "CC0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Map_of_expansion_of_the_Caliphate.png"
+      }
+    },
+    {
+      "id": "jerusalem-tomada",
+      "ano": 638,
+      "titulo": "Jerusalém é tomada pelos muçulmanos",
+      "categoria": "historia",
+      "resumo": "Depois de um cerco, o patriarca Sofrônio entregou Jerusalém ao califa Omar. Os cristãos puderam manter suas igrejas mediante o pagamento de um imposto, mas a cidade ficou sob domínio muçulmano por mais de quatro séculos, até a Primeira Cruzada.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "constantinopla-3",
+      "ano": 680,
+      "anoFim": 681,
+      "titulo": "III Concílio de Constantinopla",
+      "categoria": "concilios",
+      "resumo": "O sexto concílio ecumênico rejeitou o monotelismo, que ensinava que Cristo tinha uma só vontade. Afirmou que Cristo tem duas vontades, divina e humana, em perfeita harmonia, de acordo com Calcedônia. O concílio também condenou o papa Honório I, já falecido, por ter apoiado aquela doutrina.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "carlos-magno",
+      "ano": 768,
+      "anoFim": 814,
+      "titulo": "Carlos Magno",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/carlos-magno.webp",
+      "resumo": "Rei dos francos, unificou boa parte da Europa ocidental e foi coroado imperador pelo papa Leão III no Natal de 800, renovando a ideia de um império cristão no Ocidente. Promoveu escolas, a cópia de manuscritos e a padronização da liturgia, mas também impôs o batismo aos saxões pela força. Sua aliança com o papado marcou a relação entre Igreja e Estado na Idade Média.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Coroado imperador pelo papa no Natal de 800.",
+      "imagemCredito": {
+        "titulo": "Coroação de Carlos Magno",
+        "autor": "Friedrich Kaulbach",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Friedrich_Kaulbach_-_Kr%C3%B6nung_Karls_des_Gro%C3%9Fen.jpg"
+      }
+    },
+    {
+      "id": "niceia-2",
+      "ano": 787,
+      "titulo": "II Concílio de Niceia",
+      "categoria": "concilios",
+      "resumo": "Sétimo concílio ecumênico, convocado pela imperatriz Irene, encerrou a primeira fase da controvérsia sobre as imagens no Império Bizantino, restaurando o uso de ícones e definindo sua veneração. É o último concílio reconhecido como ecumênico tanto pela Igreja Católica quanto pela Ortodoxa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "veneracao-imagens",
+      "ano": 787,
+      "titulo": "Veneração de imagens e relíquias",
+      "categoria": "doutrina",
+      "resumo": "O II Concílio de Niceia encerrou a primeira fase da controvérsia iconoclasta e autorizou a veneração de imagens de Cristo, de Maria e dos santos. O concílio distinguiu essa veneração (dulia) da adoração (latria), que seria devida somente a Deus.",
+      "reforma": "Os reformadores, especialmente os da tradição reformada, rejeitaram as imagens no culto com base no segundo mandamento (Êx 20.4-5). Lutero foi mais tolerante com imagens como recurso didático, desde que não fossem veneradas.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo, vol. 1"
+    },
+    {
+      "id": "cristianismo-europa",
+      "ano": 850,
+      "aprox": true,
+      "titulo": "O cristianismo se espalha pela Europa",
+      "categoria": "avivamento",
+      "resumo": "Entre os séculos VI e X, missionários levaram o evangelho aos povos do norte e do leste da Europa: monges irlandeses como Columbano, Agostinho de Cantuária na Inglaterra, Bonifácio entre os germânicos e os irmãos Cirilo e Metódio entre os eslavos, para quem criaram um alfabeto e traduziram as Escrituras. Muitas conversões, porém, aconteceram por decisão dos reis, com o povo seguindo seus governantes.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "Sem data no PDF. Período das missões de Bonifácio (séc. VIII) e de Cirilo e Metódio (863)."
+    },
+    {
+      "id": "constantinopla-4",
+      "ano": 869,
+      "anoFim": 870,
+      "titulo": "IV Concílio de Constantinopla",
+      "categoria": "concilios",
+      "resumo": "Reunido em meio à disputa entre o patriarca Fócio e o papa Nicolau I, depôs Fócio e restabeleceu Inácio como patriarca. A Igreja Católica o conta como oitavo concílio ecumênico; a Ortodoxa não o reconhece. A crise de Fócio antecipou as tensões que levariam ao Grande Cisma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "mosteiros",
+      "ano": 910,
+      "aprox": true,
+      "titulo": "Mosteiros se espalham pela Europa",
+      "categoria": "movimentos",
+      "resumo": "Fundado em 910, o mosteiro de Cluny, na França, ficou livre do controle dos senhores locais e respondia diretamente ao papa. Tornou-se centro de uma reforma que combateu a compra de cargos eclesiásticos e o relaxamento do clero, chegando a liderar centenas de mosteiros. Os mosteiros preservaram as Escrituras e a cultura antiga copiando manuscritos, e eram centros de oração, ensino e assistência aos pobres.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "Sem data no PDF. 910 é a fundação de Cluny, centro da reforma monástica."
+    },
+    {
+      "id": "hungria",
+      "ano": 1000,
+      "titulo": "Hungria adota o cristianismo",
+      "categoria": "historia",
+      "resumo": "No ano 1000, Estêvão I foi coroado rei da Hungria com uma coroa enviada pelo papa Silvestre II e promoveu a cristianização do país. Na mesma época, Polônia, Boêmia, Escandinávia e o reino de Kiev (com o batismo de Vladimir, em 988) também passaram a fazer parte da cristandade.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Coroação de Estêvão I."
+    },
+    {
+      "id": "grande-cisma",
+      "ano": 1054,
+      "titulo": "Grande Cisma do Oriente",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/grande-cisma.webp",
+      "resumo": "Divergências antigas, como a autoridade do bispo de Roma, o acréscimo do Filioque ao Credo e o tipo de pão usado na Ceia, culminaram em excomunhões mútuas entre o legado do papa e o patriarca de Constantinopla. A cristandade dividiu-se entre a Igreja Católica Romana, no Ocidente, e a Igreja Ortodoxa, no Oriente. A separação continua até hoje.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "O PDF diz 'um papa em Roma, outro em Constantinopla'; em Constantinopla o líder é o patriarca, não um papa.",
+      "imagemPosicao": "center 30%",
+      "imagemCredito": {
+        "titulo": "Cristo Pantocrator, mosaico da Déesis (Santa Sofia)",
+        "autor": "foto: Myrabella",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_Deesis_mosaic_Hagia_Sophia.jpg"
+      }
+    },
+    {
+      "id": "oxford",
+      "ano": 1096,
+      "aprox": true,
+      "titulo": "Universidade de Oxford",
+      "categoria": "historia",
+      "resumo": "Há registros de ensino em Oxford desde o fim do século XI, e a universidade cresceu muito a partir de 1167. As universidades medievais nasceram ligadas à Igreja, com a teologia como principal disciplina. Foi em Oxford que João Wycliffe ensinou e começou a criticar a Igreja de seu tempo.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "jerusalem-retomada",
+      "ano": 1099,
+      "titulo": "Primeira Cruzada toma Jerusalém",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/jerusalem-retomada.webp",
+      "resumo": "Convocada pelo papa Urbano II em 1095 para socorrer o Império Bizantino e libertar os lugares santos, a Primeira Cruzada tomou Jerusalém em 15 de julho de 1099. A conquista foi seguida de um massacre de muçulmanos e judeus da cidade. O Reino Latino de Jerusalém durou até 1187, quando Saladino retomou a cidade.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "Tomada de Jerusalém pelos Cruzados (1847)",
+        "autor": "Émile Signol",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Taking_of_Jerusalem_by_the_Crusaders,_15th_July_1099.jpg"
+      }
+    },
+    {
+      "id": "templarios",
+      "ano": 1119,
+      "aprox": true,
+      "titulo": "Criação dos Cavaleiros Templários",
+      "categoria": "historia",
+      "resumo": "Fundada por cavaleiros franceses liderados por Hugo de Payens para proteger os peregrinos na Terra Santa, a Ordem do Templo uniu vida de monge e de soldado. Recebeu regra própria em 1129, com apoio de Bernardo de Claraval, e tornou-se rica e poderosa, funcionando até como um banco internacional.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 1118. A data varia entre 1118 e 1120 nas fontes."
+    },
+    {
+      "id": "latrao-1",
+      "ano": 1123,
+      "titulo": "I Concílio de Latrão",
+      "categoria": "concilios",
+      "resumo": "Primeiro concílio geral realizado no Ocidente, confirmou a Concordata de Worms (1122), que encerrou a Questão das Investiduras: os bispos seriam escolhidos pela Igreja, e não nomeados pelos reis. Também reforçou normas contra a compra de cargos (simonia) e o casamento do clero.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "latrao-2",
+      "ano": 1139,
+      "titulo": "II Concílio de Latrão",
+      "categoria": "concilios",
+      "resumo": "Convocado pelo papa Inocêncio II depois de um período de divisão com um antipapa, anulou as decisões do rival e aprovou normas de disciplina. Declarou inválidos os casamentos de clérigos das ordens maiores, tornando o celibato obrigatório no Ocidente.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "celibato",
+      "ano": 1139,
+      "titulo": "Celibato obrigatório do clero",
+      "categoria": "doutrina",
+      "resumo": "O celibato era valorizado desde cedo, e vários concílios locais já o exigiam, mas muitos padres continuavam casados. O II Concílio de Latrão declarou nulos os casamentos de sacerdotes, diáconos e subdiáconos, tornando o celibato obrigatório para o clero ocidental. As Igrejas orientais continuaram ordenando homens casados.",
+      "reforma": "Os reformadores defenderam o casamento dos pastores como honroso e bíblico (1Tm 3.2; Hb 13.4). Lutero casou-se em 1525 com Catarina von Bora, ex-freira, e seu lar tornou-se modelo de família pastoral.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "latrao-3",
+      "ano": 1179,
+      "titulo": "III Concílio de Latrão",
+      "categoria": "concilios",
+      "resumo": "Convocado por Alexandre III, determinou que a eleição do papa exige dois terços dos votos dos cardeais, regra que vale até hoje. Também condenou os cátaros e ordenou que cada catedral mantivesse um mestre para ensinar clérigos e alunos pobres.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "cambridge",
+      "ano": 1209,
+      "titulo": "Universidade de Cambridge",
+      "categoria": "historia",
+      "resumo": "Foi fundada por estudiosos que deixaram Oxford após conflitos com a população local. Séculos depois, Cambridge seria um centro da Reforma inglesa: ali se reuniam, na Taverna do Cavalo Branco, estudiosos como Thomas Bilney, Hugh Latimer e Thomas Cranmer. Mais tarde foi também um dos berços do puritanismo.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "terco",
+      "ano": 1214,
+      "titulo": "Instituição do terço (rosário)",
+      "categoria": "doutrina",
+      "resumo": "Segundo a tradição, Domingos de Gusmão recebeu de Maria o rosário por volta de 1214, como meio de combater a heresia albigense. A prática de rezar com contas e orações repetidas tem raízes mais antigas, e a forma atual, com mistérios meditados, se fixou entre os séculos XV e XVI.",
+      "reforma": "Os reformadores rejeitaram o rosário por envolver orações dirigidas a Maria e pela repetição mecânica, lembrando a advertência de Jesus contra as vãs repetições (Mt 6.7).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Data segundo a tradição que liga o rosário a Domingos de Gusmão; historiadores apontam desenvolvimento gradual (séc. XII-XV). Data mantida pelo autor (jan/2025); pode ser revista."
+    },
+    {
+      "id": "latrao-4",
+      "ano": 1215,
+      "titulo": "IV Concílio de Latrão",
+      "categoria": "concilios",
+      "resumo": "Convocado por Inocêncio III, o papa mais poderoso da Idade Média, foi o concílio medieval mais importante. Definiu a transubstanciação, obrigou os fiéis a se confessar e comungar ao menos uma vez por ano, organizou a repressão às heresias e convocou nova cruzada. Também determinou que judeus e muçulmanos usassem roupas que os distinguissem.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "transubstanciacao",
+      "ano": 1215,
+      "titulo": "Definição da transubstanciação",
+      "categoria": "doutrina",
+      "resumo": "O IV Concílio de Latrão definiu oficialmente que, na missa, o pão e o vinho se tornam em substância o corpo e o sangue de Cristo, conservando apenas a aparência. A questão vinha sendo debatida desde o séc. IX, e a doutrina foi depois explicada por Tomás de Aquino com conceitos da filosofia de Aristóteles.",
+      "reforma": "Os reformadores rejeitaram a transubstanciação, mas não concordaram entre si: Lutero defendeu a presença real de Cristo junto com o pão e o vinho; Zuínglio via a Ceia como memorial; Calvino ensinou uma presença espiritual de Cristo recebida pela fé.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "tomas-aquino",
+      "ano": 1225,
+      "anoFim": 1274,
+      "titulo": "Tomás de Aquino",
+      "categoria": "teologos",
+      "resumo": "Frade dominicano italiano, ensinou em Paris e procurou harmonizar a fé cristã com a filosofia de Aristóteles. Sua Suma Teológica é a obra mais influente da teologia medieval e continua sendo base da teologia católica. Morreu a caminho do II Concílio de Lyon, em 1274.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "lyon-1",
+      "ano": 1245,
+      "titulo": "I Concílio de Lyon",
+      "categoria": "concilios",
+      "resumo": "Convocado pelo papa Inocêncio IV, declarou deposto o imperador Frederico II, no auge do conflito entre o papado e o Império. Também tratou da ameaça dos mongóis e da situação da Terra Santa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "lyon-2",
+      "ano": 1274,
+      "titulo": "II Concílio de Lyon",
+      "categoria": "concilios",
+      "resumo": "Convocado por Gregório X, buscou reunir as Igrejas latina e grega: os representantes de Constantinopla aceitaram a autoridade do papa e o Filioque, mas a união foi rejeitada pelo clero e pelo povo do Oriente e logo desfeita. Também regulamentou o conclave para a eleição do papa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "purgatorio",
+      "ano": 1274,
+      "titulo": "Definição do purgatório",
+      "categoria": "doutrina",
+      "resumo": "A ideia de uma purificação após a morte se desenvolveu desde a Antiguidade, com Agostinho e Gregório Magno. O II Concílio de Lyon fez a primeira declaração oficial sobre o tema, reafirmada em Florença (1439) e em Trento (1563). A doutrina se ligou às orações, missas e indulgências em favor dos mortos.",
+      "reforma": "Os reformadores rejeitaram o purgatório por não ter base nas Escrituras, ensinando que o sangue de Cristo purifica de todo pecado (1Jo 1.7). A venda de indulgências pelas almas do purgatório foi justamente o estopim da Reforma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "vienne",
+      "ano": 1311,
+      "anoFim": 1312,
+      "titulo": "Concílio de Vienne",
+      "categoria": "concilios",
+      "resumo": "Convocado por Clemente V, o primeiro papa a residir em Avignon, reuniu-se sob forte pressão do rei Filipe IV da França e decidiu a extinção da Ordem dos Templários. Também tratou da pobreza franciscana e de movimentos místicos considerados heréticos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "templarios-fim",
+      "ano": 1312,
+      "titulo": "Extinção dos Cavaleiros Templários",
+      "categoria": "historia",
+      "resumo": "Acusados de heresia e práticas imorais pelo rei Filipe IV da França, que cobiçava suas riquezas, os templários foram presos em 1307 e muitos confessaram sob tortura. Em 1312 o papa Clemente V dissolveu a ordem, e em 1314 o grão-mestre Jacques de Molay foi queimado em Paris. Hoje a maioria dos historiadores considera as acusações infundadas.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "wycliffe",
+      "ano": 1328,
+      "anoFim": 1384,
+      "aprox": true,
+      "titulo": "João Wycliffe",
+      "categoria": "reforma",
+      "destaque": true,
+      "imagem": "img/wycliffe.webp",
+      "resumo": "Professor em Oxford, João Wycliffe defendeu que a Bíblia é a autoridade suprema da fé e criticou a riqueza do clero, o poder do papa e a transubstanciação. Inspirou a tradução da Bíblia para o inglês e enviou pregadores leigos, os lolardos, pelo país. Chamado de 'estrela da manhã da Reforma', morreu em 1384; o Concílio de Constança o condenou, e seus restos foram queimados em 1428.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: '1328 - Precursores da Reforma: Wycliffe, Huss'. Separado em Wycliffe e Huss.",
+      "imagemPosicao": "center 20%",
+      "imagemCredito": {
+        "titulo": "Retrato de João Wycliffe",
+        "autor": "Thomas Kirkby",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Wycliffe_by_Kirby.jpg"
+      }
+    },
+    {
+      "id": "biblia-wycliffe",
+      "ano": 1382,
+      "titulo": "Bíblia de Wycliffe em inglês",
+      "categoria": "biblia",
+      "resumo": "Inspirados por Wycliffe, colaboradores como Nicolau de Hereford e João Purvey traduziram toda a Bíblia da Vulgata latina para o inglês. Copiada à mão, circulou em segredo depois que, em 1408, a Igreja inglesa proibiu traduções sem autorização. Foi a primeira Bíblia completa em inglês.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "joana-darc",
+      "ano": 1412,
+      "anoFim": 1431,
+      "titulo": "Joana d'Arc",
+      "categoria": "historia",
+      "resumo": "Jovem camponesa francesa, afirmava ouvir vozes de santos que a mandavam libertar a França dos ingleses na Guerra dos Cem Anos. Liderou as tropas na vitória de Orléans (1429), foi capturada e condenada como herege por um tribunal eclesiástico, e queimada em Ruão em 1431. Foi reabilitada em 1456 e canonizada pela Igreja Católica em 1920.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "constanca",
+      "ano": 1414,
+      "anoFim": 1418,
+      "titulo": "Concílio de Constança",
+      "categoria": "concilios",
+      "resumo": "Convocado para encerrar o Grande Cisma do Ocidente, quando três papas disputavam o cargo, o concílio depôs ou aceitou a renúncia dos três e elegeu Martinho V em 1417. Declarou que o concílio tinha autoridade sobre o papa. Também condenou as doutrinas de Wycliffe e mandou queimar João Huss (1415) e Jerônimo de Praga (1416).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Condenou Wycliffe (postumamente) e Huss. A condenação e a execução de Huss foram em 1415, não em 1418."
+    },
+    {
+      "id": "joao-huss",
+      "ano": 1415,
+      "titulo": "Martírio de João Huss",
+      "categoria": "reforma",
+      "destaque": true,
+      "imagem": "img/joao-huss.webp",
+      "resumo": "Padre e reitor da Universidade de Praga, João Huss pregava em língua tcheca, criticou a venda de indulgências e defendeu a autoridade das Escrituras, influenciado pelos escritos de Wycliffe. Convocado ao Concílio de Constança com promessa de salvo-conduto, foi condenado como herege e queimado em 6 de julho de 1415. Um século depois, Lutero reconheceu nele um precursor da Reforma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo, vol. 1",
+      "imagemCredito": {
+        "titulo": "Huss no Concílio de Constança (1883)",
+        "autor": "Václav Brožík",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Vaclav_Brozik_-_Hus.jpg"
+      }
+    },
+    {
+      "id": "basileia-florenca",
+      "ano": 1431,
+      "anoFim": 1449,
+      "titulo": "Concílio de Basileia-Ferrara-Florença",
+      "categoria": "concilios",
+      "resumo": "Iniciado em Basileia, o concílio entrou em conflito com o papa Eugênio IV, que o transferiu para Ferrara (1438) e depois para Florença. Ali, diante da ameaça turca, representantes da Igreja grega assinaram em 1439 um decreto de união com Roma, depois rejeitado no Oriente. O grupo que permaneceu em Basileia chegou a eleger um antipapa e se dissolveu em 1449.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 1431 a 1432. Basileia começou em 1431; a fase Ferrara-Florença foi de 1438 a 1445."
+    },
+    {
+      "id": "florenca-canon",
+      "ano": 1439,
+      "titulo": "Florença reafirma o purgatório e lista o cânon",
+      "categoria": "doutrina",
+      "resumo": "No decreto de união com os gregos (1439), o concílio definiu o purgatório e a primazia do papa. Em 1442, no decreto para os coptas, listou os livros da Bíblia, incluindo os que os protestantes chamam de apócrifos. Essas posições foram reafirmadas como dogma em Trento.",
+      "reforma": "Os reformadores seguiram o cânon hebraico do Antigo Testamento, como já fizera Jerônimo, e consideraram os apócrifos úteis para leitura, mas não para fundamentar doutrina.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 1432. O decreto sobre o purgatório é de 1439 e a lista dos livros (incluindo os deuterocanônicos) é de 1442."
+    },
+    {
+      "id": "prensa",
+      "ano": 1440,
+      "aprox": true,
+      "titulo": "Prensa de Gutenberg",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/prensa.webp",
+      "resumo": "Por volta de 1440, em Mainz, Johannes Gutenberg desenvolveu a prensa com tipos móveis de metal. Seu primeiro grande livro foi uma Bíblia em latim, concluída por volta de 1455. A imprensa barateou os livros e permitiu que as ideias da Reforma, as Bíblias traduzidas e os catecismos se espalhassem rapidamente pela Europa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemPosicao": "center 20%",
+      "imagemCredito": {
+        "titulo": "Bíblia de Gutenberg, livro de Gênesis",
+        "autor": "Johannes Gutenberg (impressor)",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible_B42_Genesis.JPG"
+      }
+    },
+    {
+      "id": "queda-constantinopla",
+      "ano": 1453,
+      "titulo": "Queda de Constantinopla",
+      "categoria": "historia",
+      "destaque": true,
+      "imagem": "img/queda-constantinopla.webp",
+      "resumo": "Em 29 de maio de 1453, o sultão otomano Mehmed II conquistou Constantinopla, pondo fim ao Império Bizantino depois de mais de mil anos. A grande igreja de Santa Sofia foi transformada em mesquita. Estudiosos gregos fugiram para a Itália levando manuscritos, o que alimentou o Renascimento e o estudo do Novo Testamento em grego. É o marco tradicional do fim da Idade Média.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemCredito": {
+        "titulo": "A Conquista de Constantinopla",
+        "autor": "Fausto Zonaro",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Conquest_of_Constantinople,_Zonaro.jpg"
+      }
+    },
+    {
+      "id": "colombo",
+      "ano": 1492,
+      "titulo": "Colombo chega à América",
+      "categoria": "historia",
+      "resumo": "Em 12 de outubro de 1492, Cristóvão Colombo, a serviço dos reis da Espanha, chegou às ilhas do Caribe. Com a colonização espanhola e portuguesa, o catolicismo foi levado às Américas, muitas vezes com violência contra os povos indígenas, embora missionários como Bartolomeu de Las Casas tenham denunciado os abusos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "savonarola",
+      "ano": 1498,
+      "titulo": "Execução de Savonarola",
+      "categoria": "reforma",
+      "resumo": "Frade dominicano, pregou com vigor em Florença contra a corrupção do clero, o luxo e a imoralidade, inclusive a do papa Alexandre VI. Por alguns anos influenciou o governo da cidade, mas foi excomungado, preso, torturado e enforcado, e seu corpo foi queimado na praça em 23 de maio de 1498. É lembrado como um dos precursores da Reforma.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "henrique-8",
+      "ano": 1509,
+      "anoFim": 1547,
+      "titulo": "Henrique VIII",
+      "categoria": "historia",
+      "resumo": "Rei da Inglaterra, rompeu com Roma quando o papa se recusou a anular seu casamento com Catarina de Aragão. Pelo Ato de Supremacia (1534), tornou-se chefe da Igreja da Inglaterra e fechou os mosteiros. A doutrina mudou pouco em seu reinado, mas a ruptura abriu caminho para a Reforma inglesa sob seus sucessores.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Rompe com Roma pelo Ato de Supremacia (1534)."
+    },
+    {
+      "id": "latrao-5",
+      "ano": 1512,
+      "anoFim": 1517,
+      "titulo": "V Concílio de Latrão",
+      "categoria": "concilios",
+      "resumo": "Convocado por Júlio II e concluído por Leão X, discutiu reformas na Igreja, mas produziu poucos resultados práticos. Terminou em março de 1517, poucos meses antes de Lutero publicar suas 95 teses.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "reforma-protestante",
+      "ano": 1517,
+      "titulo": "Reforma Protestante",
+      "categoria": "reforma",
+      "destaque": true,
+      "imagem": "img/reforma-protestante.webp",
+      "resumo": "Em 31 de outubro de 1517, Martinho Lutero, monge agostiniano e professor em Wittenberg, divulgou 95 teses contra a venda de indulgências. O debate logo se ampliou para a autoridade da Igreja e a doutrina da salvação, resumidas depois nos princípios da Reforma: somente a Escritura, somente a graça, somente a fé, somente Cristo e glória somente a Deus. Zuínglio, Calvino, Knox e outros levaram o movimento a diversos países.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "O PDF cita 'Lutero, Calvino'. Calvino entrou no movimento mais tarde (nasceu em 1509); fica no texto como continuador.",
+      "imagemPosicao": "center 30%",
+      "imagemCredito": {
+        "titulo": "Lutero fixa as 95 teses (1872)",
+        "autor": "Ferdinand Pauwels",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Ferdinand_Pauwels_-_Luther_hammers_his_95_theses_to_the_door.jpg"
+      }
+    },
+    {
+      "id": "biblia-lutero",
+      "ano": 1534,
+      "titulo": "Bíblia de Lutero em alemão",
+      "categoria": "biblia",
+      "resumo": "Escondido no castelo de Wartburg, Lutero traduziu o Novo Testamento do grego para o alemão em poucas semanas; a obra foi publicada em setembro de 1522. Com ajuda de colegas, completou a Bíblia inteira em 1534. A tradução, em linguagem viva e popular, ajudou a formar o alemão moderno e colocou as Escrituras nas mãos do povo.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "tyndale",
+      "ano": 1536,
+      "titulo": "Martírio de William Tyndale",
+      "categoria": "biblia",
+      "resumo": "Estudioso inglês, decidiu traduzir a Bíblia diretamente do grego e do hebraico para que até o rapaz que conduz o arado conhecesse as Escrituras. Proibido na Inglaterra, publicou o Novo Testamento na Alemanha (1526), que entrou no país contrabandeado. Foi preso em Antuérpia, estrangulado e queimado em 1536, orando para que Deus abrisse os olhos do rei da Inglaterra. Boa parte de sua tradução passou para a versão King James.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 1540. Tyndale foi executado em 1536."
+    },
+    {
+      "id": "contrarreforma",
+      "ano": 1545,
+      "titulo": "Contrarreforma (Reforma Católica)",
+      "categoria": "reforma",
+      "resumo": "Diante da expansão protestante, a Igreja Católica reagiu com reformas internas e com o combate às novas doutrinas. Fazem parte desse movimento o Concílio de Trento, a Companhia de Jesus (jesuítas, aprovada em 1540), a Inquisição Romana (1542) e o Índice de Livros Proibidos (1559). Houve também renovação espiritual, com figuras como Teresa de Ávila, e grande expansão missionária.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: 1517. A reação católica costuma ser datada da abertura do Concílio de Trento, em 1545."
+    },
+    {
+      "id": "trento",
+      "ano": 1545,
+      "anoFim": 1563,
+      "titulo": "Concílio de Trento",
+      "categoria": "concilios",
+      "resumo": "Convocado pelo papa Paulo III em resposta à Reforma, reuniu-se em três períodos ao longo de 18 anos. Definiu as doutrinas católicas em oposição às protestantes: Escritura e Tradição como fontes da revelação, os sete sacramentos, a justificação com participação das obras, a missa como sacrifício e o purgatório. Também corrigiu abusos e criou seminários para formar o clero. Moldou a Igreja Católica até o século XX.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "apocrifos",
+      "ano": 1546,
+      "titulo": "Livros deuterocanônicos (apócrifos) declarados canônicos",
+      "categoria": "doutrina",
+      "resumo": "Em abril de 1546, Trento declarou canônicos, com a mesma autoridade dos demais, livros como Tobias, Judite, Sabedoria, Eclesiástico, Baruque, 1 e 2 Macabeus e acréscimos a Ester e Daniel. Esses livros constavam da Septuaginta e da Vulgata, mas não da Bíblia hebraica. Os católicos os chamam de deuterocanônicos.",
+      "reforma": "Os protestantes seguiram o cânon hebraico, o mesmo defendido por Jerônimo. Lutero manteve esses livros em sua Bíblia, numa seção à parte, como bons e úteis para ler, mas não equiparados às Sagradas Escrituras.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "primeiro-culto-brasil",
+      "ano": 1557,
+      "brasil": true,
+      "titulo": "Primeiro culto protestante no Brasil",
+      "categoria": "movimentos",
+      "resumo": "Em 10 de março de 1557, pastores calvinistas enviados de Genebra celebraram o primeiro culto protestante das Américas, na colônia francesa da Baía de Guanabara (França Antártica). Pouco depois, divergências com o comandante Villegaignon levaram à expulsão do grupo; três deles foram executados em 1558 e deixaram por escrito a Confissão de Fé da Guanabara.",
+      "fonte": "Alderi S. de Matos, Os Pioneiros Presbiterianos do Brasil",
+      "nota": "PDF: 1577. O culto foi em 10 de março de 1557."
+    },
+    {
+      "id": "elizabeth-1",
+      "ano": 1558,
+      "anoFim": 1603,
+      "titulo": "Elizabeth I",
+      "categoria": "historia",
+      "resumo": "Filha de Henrique VIII, consolidou a Igreja da Inglaterra como protestante, com o Livro de Oração Comum e os 39 Artigos, num caminho intermediário entre Roma e Genebra. Seu longo reinado garantiu a sobrevivência do protestantismo inglês, mas descontentou tanto católicos quanto puritanos.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "puritanismo",
+      "ano": 1560,
+      "aprox": true,
+      "titulo": "Surgimento do puritanismo",
+      "categoria": "movimentos",
+      "resumo": "Na Inglaterra de Elizabeth I, protestantes influenciados por Calvino quiseram 'purificar' a Igreja Anglicana de práticas que consideravam resquícios católicos, como vestes e cerimônias. Os puritanos valorizavam a pregação bíblica, a vida santa, a guarda do domingo e a família como 'pequena igreja'. Deles vieram autores como John Owen e Richard Baxter e a Confissão de Fé de Westminster (1646).",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: 1550. O movimento ganha forma após o acordo religioso de Elizabeth I (1559)."
+    },
+    {
+      "id": "presbiteriana",
+      "ano": 1560,
+      "titulo": "Igreja Presbiteriana (Calvino e Knox)",
+      "categoria": "movimentos",
+      "resumo": "Depois de anos de exílio, inclusive em Genebra, onde conviveu com Calvino, John Knox liderou a Reforma na Escócia. Em 1560, o Parlamento escocês aprovou a Confissão Escocesa e rompeu com Roma. A igreja passou a ser governada por presbíteros eleitos, reunidos em conselhos e sínodos, modelo que deu nome ao presbiterianismo.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "Reforma escocesa liderada por John Knox, seguindo o modelo de Calvino em Genebra."
+    },
+    {
+      "id": "sao-bartolomeu",
+      "ano": 1572,
+      "titulo": "Massacre da Noite de São Bartolomeu",
+      "categoria": "perseguicao",
+      "resumo": "Na madrugada de 24 de agosto de 1572, em Paris, durante as festas do casamento do protestante Henrique de Navarra, milhares de huguenotes (protestantes franceses) foram assassinados, entre eles o almirante Coligny. A matança se espalhou por outras cidades. Anos depois, já rei, Henrique concedeu liberdade de culto aos protestantes pelo Édito de Nantes (1598).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "batista",
+      "ano": 1609,
+      "titulo": "Primeira igreja batista (John Smyth)",
+      "categoria": "movimentos",
+      "resumo": "John Smyth, pastor separatista inglês exilado na Holanda, concluiu que o batismo deveria ser só para quem professa a fé. Em 1609 batizou a si mesmo e a seu grupo em Amsterdã, formando a primeira igreja batista. Em 1612, Thomas Helwys voltou à Inglaterra e fundou em Londres a primeira igreja batista em solo inglês, defendendo também a liberdade religiosa para todos.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: 'John Smith - 1612'. Smyth fundou a primeira igreja batista em Amsterdã, em 1609; em 1612 Thomas Helwys fundou a primeira na Inglaterra."
+    },
+    {
+      "id": "remonstrancia",
+      "ano": 1610,
+      "titulo": "Remonstrância (seguidores de Armínio)",
+      "categoria": "teologos",
+      "resumo": "Jacó Armínio, professor em Leiden, na Holanda, questionou a doutrina calvinista da predestinação. Após sua morte, em 1609, seus seguidores apresentaram a Remonstrância (1610), com cinco pontos: eleição condicionada à fé prevista, expiação por todos, necessidade da graça, graça resistível e possibilidade de cair da graça. O Sínodo de Dort (1618-1619) rejeitou esses pontos, mas o arminianismo influenciou depois metodistas e pentecostais.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Jacó Armínio (Decl. Teológica) - 1610'. Armínio morreu em 1609; a declaração de 1610 foi de seus seguidores."
+    },
+    {
+      "id": "king-james",
+      "ano": 1611,
+      "titulo": "Versão King James",
+      "categoria": "biblia",
+      "destaque": true,
+      "imagem": "img/king-james.webp",
+      "resumo": "Encomendada pelo rei Jaime I e feita por cerca de 50 estudiosos, a Versão Autorizada foi traduzida dos originais hebraico e grego, aproveitando muito o trabalho de Tyndale. Por três séculos foi a Bíblia dos povos de língua inglesa e influenciou profundamente a literatura e as missões protestantes.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "imagemPosicao": "center 30%",
+      "imagemCredito": {
+        "titulo": "Folha de rosto da versão King James (1611)",
+        "autor": "",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg"
+      }
+    },
+    {
+      "id": "bunyan",
+      "ano": 1628,
+      "anoFim": 1688,
+      "titulo": "John Bunyan",
+      "categoria": "teologos",
+      "resumo": "Funileiro e pregador batista sem formação acadêmica, passou 12 anos preso por pregar sem licença. Na prisão escreveu boa parte de O Peregrino (1678), alegoria da jornada cristã rumo à Cidade Celestial, que se tornou um dos livros mais lidos e traduzidos da história depois da Bíblia.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "puritanos-america",
+      "ano": 1630,
+      "titulo": "Puritanismo chega à América",
+      "categoria": "movimentos",
+      "resumo": "Em 1630, cerca de mil puritanos liderados por John Winthrop fundaram a Colônia da Baía de Massachusetts, com o ideal de ser uma 'cidade sobre o monte' (Mt 5.14). Dez anos antes, os peregrinos do Mayflower haviam fundado Plymouth (1620). Os puritanos marcaram a vida religiosa, a educação (Harvard, 1636) e a vida pública dos futuros Estados Unidos.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "luis-14",
+      "ano": 1643,
+      "anoFim": 1715,
+      "titulo": "Luís XIV",
+      "categoria": "historia",
+      "resumo": "O 'Rei Sol' simbolizou o poder absoluto. Em 1685 revogou o Édito de Nantes e proibiu o protestantismo na França: templos foram destruídos e cerca de 200 mil huguenotes fugiram para a Holanda, Inglaterra, Prússia, Suíça e América, levando consigo seus ofícios e sua fé.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "Revogou o Édito de Nantes em 1685, voltando a perseguir os huguenotes."
+    },
+    {
+      "id": "pietismo",
+      "ano": 1675,
+      "titulo": "Pietismo na Alemanha",
+      "categoria": "movimentos",
+      "resumo": "Em 1675, o pastor luterano Philipp Jakob Spener publicou Pia Desideria ('Desejos piedosos'), propondo estudo bíblico em pequenos grupos, participação ativa dos leigos e uma fé vivida no dia a dia, e não apenas doutrina correta. August Hermann Francke levou o movimento a Halle, com escolas, orfanato e missões. O pietismo influenciou os morávios, os irmãos Wesley e o movimento missionário moderno.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: 1655. O marco é a publicação de Pia Desideria, de Philipp Spener, em 1675."
+    },
+    {
+      "id": "almeida",
+      "ano": 1681,
+      "brasil": true,
+      "titulo": "Novo Testamento de João Ferreira de Almeida",
+      "categoria": "biblia",
+      "resumo": "Português convertido ao protestantismo, João Ferreira de Almeida serviu como pastor da Igreja Reformada Holandesa no Oriente. Traduziu o Novo Testamento do grego para o português, publicado em Amsterdã em 1681, e morreu em 1691 quando chegava ao fim do livro de Ezequiel. Revisada muitas vezes, a tradução Almeida é a Bíblia mais usada pelos protestantes de língua portuguesa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "jonathan-edwards",
+      "ano": 1703,
+      "anoFim": 1758,
+      "titulo": "Jonathan Edwards",
+      "categoria": "avivamento",
+      "resumo": "Pastor congregacional em Northampton, Massachusetts, foi um dos líderes do Grande Despertamento, o avivamento que alcançou as colônias americanas nas décadas de 1730 e 1740. Considerado o maior teólogo americano, uniu rigor calvinista e ênfase na experiência religiosa genuína. Seu sermão 'Pecadores nas mãos de um Deus irado' (1741) tornou-se célebre.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "nota": "PDF: '1703 - John Wesley / Jonathan Edwards' (ano de nascimento de ambos). Separado em dois."
+    },
+    {
+      "id": "john-wesley",
+      "ano": 1703,
+      "anoFim": 1791,
+      "titulo": "John Wesley",
+      "categoria": "avivamento",
+      "resumo": "Pastor anglicano, viveu em 1738, numa reunião na rua Aldersgate, em Londres, a experiência em que sentiu o coração 'estranhamente aquecido' e recebeu a certeza da salvação. Pregou ao ar livre por mais de 50 anos, percorrendo cerca de 400 mil quilômetros a cavalo, e organizou os convertidos em sociedades e classes. Daí nasceu o metodismo. Seu irmão Charles escreveu milhares de hinos.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "whitefield",
+      "ano": 1714,
+      "anoFim": 1770,
+      "titulo": "George Whitefield",
+      "categoria": "avivamento",
+      "resumo": "Pregador anglicano de voz poderosa, companheiro de Wesley no 'Clube Santo' de Oxford, foi o grande evangelista ao ar livre do século XVIII. Atravessou o Atlântico 13 vezes e pregou a multidões na Inglaterra e nas colônias americanas, sendo figura central do Grande Despertamento. Ao contrário de Wesley, era calvinista na teologia.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "luis-15",
+      "ano": 1715,
+      "anoFim": 1774,
+      "titulo": "Luís XV",
+      "categoria": "historia",
+      "resumo": "No reinado de Luís XV, o protestantismo continuou proibido na França, e os fiéis se reuniam em segredo, na chamada 'Igreja do Deserto'. Pastores eram executados e fiéis enviados às galés. Ao mesmo tempo, Voltaire e outros pensadores do Iluminismo criticavam a Igreja e a intolerância religiosa.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "metodista",
+      "ano": 1739,
+      "titulo": "Início do movimento metodista",
+      "categoria": "movimentos",
+      "destaque": true,
+      "imagem": "img/metodista.webp",
+      "resumo": "Em 1739, a convite de Whitefield, John Wesley começou a pregar ao ar livre em Bristol e a organizar os convertidos em sociedades. Os metodistas, apelidados assim por sua vida disciplinada, permaneceram dentro da Igreja Anglicana enquanto Wesley viveu na Inglaterra. Nos Estados Unidos organizaram-se como igreja própria em 1784, e o movimento cresceu rapidamente nos dois países.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos",
+      "imagemCredito": {
+        "titulo": "John Wesley pregando ao ar livre (gravura)",
+        "autor": "Wellcome Collection",
+        "licenca": "CC BY 4.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:John_Wesley_preaching_outside_a_church._Engraving._Wellcome_V0006868.jpg"
+      }
+    },
+    {
+      "id": "pietismo-america",
+      "ano": 1740,
+      "aprox": true,
+      "titulo": "Pietismo chega à América",
+      "categoria": "movimentos",
+      "resumo": "Imigrantes alemães, como os morávios, que fundaram Bethlehem, na Pensilvânia, em 1741, levaram o pietismo às colônias americanas. A ênfase pietista na conversão pessoal e na vida devota somou-se ao Grande Despertamento de Edwards e Whitefield e ajudou a moldar o evangelicalismo americano.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "william-carey",
+      "ano": 1761,
+      "anoFim": 1834,
+      "titulo": "William Carey",
+      "categoria": "avivamento",
+      "resumo": "Sapateiro e pastor batista inglês, publicou em 1792 um apelo para que os cristãos levassem o evangelho a todas as nações e ajudou a fundar a Sociedade Missionária Batista. Partiu para a Índia em 1793 e lá viveu até a morte, traduzindo a Bíblia, fundando escolas e lutando contra práticas como a queima de viúvas. É chamado de 'pai das missões modernas'. Seu lema: 'Espere grandes coisas de Deus; empreenda grandes coisas para Deus'.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "revolucao-americana",
+      "ano": 1776,
+      "titulo": "Independência dos Estados Unidos",
+      "categoria": "historia",
+      "resumo": "Em 4 de julho de 1776, as 13 colônias britânicas declararam independência. A nova nação garantiu a liberdade religiosa e, pela Primeira Emenda (1791), proibiu o governo de estabelecer uma religião oficial. Sem igreja estatal, as denominações cresceram pela evangelização e pelos avivamentos, modelo que marcaria o protestantismo americano.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "revolucao-francesa",
+      "ano": 1789,
+      "anoFim": 1799,
+      "titulo": "Revolução Francesa",
+      "categoria": "historia",
+      "resumo": "A revolução derrubou a monarquia absoluta e os privilégios do clero e da nobreza. A Igreja teve seus bens confiscados, padres que não juraram fidelidade ao novo regime foram perseguidos e, na fase do Terror, houve uma campanha de descristianização. Por outro lado, a Declaração dos Direitos do Homem (1789) garantiu a liberdade de culto, e os protestantes franceses recuperaram plenos direitos. É o marco do início da Idade Contemporânea.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "finney",
+      "ano": 1792,
+      "anoFim": 1875,
+      "titulo": "Charles Finney",
+      "categoria": "avivamento",
+      "resumo": "Advogado convertido em 1821, tornou-se o principal pregador do Segundo Grande Despertamento nos Estados Unidos. Introduziu 'novas medidas', como reuniões prolongadas e o 'banco dos ansiosos', onde os interessados se apresentavam publicamente. Foi presidente do Oberlin College e participou ativamente da luta contra a escravidão.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "napoleao",
+      "ano": 1799,
+      "anoFim": 1815,
+      "titulo": "Napoleão Bonaparte",
+      "categoria": "historia",
+      "resumo": "Chegou ao poder em 1799 e coroou-se imperador em 1804, na presença do papa Pio VII. Pela Concordata de 1801, restabeleceu o culto católico na França sob controle do Estado e, em seguida, reconheceu oficialmente as igrejas protestantes. Suas guerras espalharam pela Europa as ideias de igualdade civil e tolerância religiosa. Derrotado em Waterloo (1815), morreu exilado na ilha de Santa Helena, em 1821.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 1799 a 1821. Governou até 1815; morreu em 1821."
+    },
+    {
+      "id": "traducoes-carey",
+      "ano": 1801,
+      "titulo": "Traduções de William Carey na Índia",
+      "categoria": "biblia",
+      "resumo": "Em Serampore, perto de Calcutá, Carey e seus colegas William Ward e Joshua Marshman montaram uma gráfica missionária. O Novo Testamento em bengali saiu em 1801 e, nas décadas seguintes, a equipe traduziu a Bíblia, no todo ou em parte, para mais de 40 línguas e dialetos da Ásia, inclusive o sânscrito.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: '1800 - Tradução Grego/Heb para Sânscrito'. O Novo Testamento em bengali saiu em 1801 e o em sânscrito em 1808."
+    },
+    {
+      "id": "independencia-brasil",
+      "ano": 1822,
+      "brasil": true,
+      "titulo": "Independência do Brasil",
+      "categoria": "historia",
+      "resumo": "Em 7 de setembro de 1822, D. Pedro proclamou a independência do Brasil. A Constituição de 1824 manteve o catolicismo como religião oficial, mas permitiu outras religiões com culto doméstico, em casas 'sem forma exterior de templo'. Essa abertura limitada permitiu a chegada das primeiras igrejas protestantes, primeiro de imigrantes e depois de missionários.",
+      "fonte": "Émile G. Léonard, O Protestantismo Brasileiro"
+    },
+    {
+      "id": "luterana-brasil",
+      "ano": 1824,
+      "brasil": true,
+      "titulo": "Igreja Luterana no Brasil",
+      "categoria": "movimentos",
+      "resumo": "Imigrantes alemães que chegaram a Nova Friburgo (RJ) e a São Leopoldo (RS) em 1824 trouxeram sua fé luterana. Em Nova Friburgo, o pastor Friedrich Oswald Sauerbronn organizou a primeira comunidade luterana do país, em 3 de maio de 1824. Foi o início do chamado protestantismo de imigração no Brasil.",
+      "fonte": "Émile G. Léonard, O Protestantismo Brasileiro"
+    },
+    {
+      "id": "spurgeon",
+      "ano": 1834,
+      "anoFim": 1892,
+      "titulo": "Charles H. Spurgeon",
+      "categoria": "avivamento",
+      "resumo": "Pastor batista inglês, começou a pregar ainda adolescente e aos 19 anos assumiu uma igreja em Londres, que se tornou o Tabernáculo Metropolitano, com cerca de 5 mil pessoas por culto. Chamado de 'príncipe dos pregadores', teve seus sermões publicados semanalmente e traduzidos para dezenas de línguas. Fundou um seminário para pastores e orfanatos.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "moody",
+      "ano": 1837,
+      "anoFim": 1899,
+      "titulo": "Dwight L. Moody",
+      "categoria": "avivamento",
+      "resumo": "Vendedor de sapatos em Chicago, sem estudo formal, tornou-se o maior evangelista do século XIX, com grandes campanhas nos Estados Unidos e na Grã-Bretanha ao lado do cantor Ira Sankey. Fundou escolas e o instituto bíblico que hoje leva seu nome (1886), para formar obreiros leigos para a evangelização.",
+      "fonte": "Earle E. Cairns, O Cristianismo Através dos Séculos"
+    },
+    {
+      "id": "presbiteriana-brasil",
+      "ano": 1859,
+      "brasil": true,
+      "titulo": "Igreja Presbiteriana no Brasil",
+      "categoria": "movimentos",
+      "resumo": "Em 12 de agosto de 1859 chegou ao Rio de Janeiro o missionário americano Ashbel Green Simonton, considerado o fundador da Igreja Presbiteriana do Brasil. Em 1862 organizou a primeira igreja presbiteriana do país, no Rio, e em 1864 fundou o primeiro jornal evangélico brasileiro, a Imprensa Evangélica. Morreu jovem, em 1867, aos 34 anos.",
+      "fonte": "Alderi S. de Matos, Os Pioneiros Presbiterianos do Brasil"
+    },
+    {
+      "id": "holiness",
+      "ano": 1867,
+      "titulo": "Movimento de Santidade (Holiness)",
+      "categoria": "movimentos",
+      "resumo": "Nascido no metodismo americano, o Movimento de Santidade enfatizava uma 'segunda bênção' depois da conversão: a inteira santificação, que libertaria o crente do domínio do pecado. Em 1867 realizou-se em Vineland, Nova Jersey, o primeiro acampamento nacional de santidade. Dele surgiram denominações como a Igreja do Nazareno, e foi o berço imediato do pentecostalismo.",
+      "fonte": "Vinson Synan, O Século do Espírito Santo",
+      "nota": "PDF: 1880. O marco é o primeiro acampamento nacional de santidade, em 1867 (Vineland, EUA)."
+    },
+    {
+      "id": "vaticano-1",
+      "ano": 1869,
+      "anoFim": 1870,
+      "titulo": "Concílio Vaticano I",
+      "categoria": "concilios",
+      "resumo": "Convocado por Pio IX, num tempo em que o papa perdia os Estados Pontifícios para a unificação italiana, definiu a primazia e a infalibilidade do papa. Também afirmou que Deus pode ser conhecido pela razão e condenou o racionalismo. Foi interrompido em 1870, quando tropas italianas tomaram Roma.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "infalibilidade",
+      "ano": 1870,
+      "titulo": "Dogma da infalibilidade papal",
+      "categoria": "doutrina",
+      "resumo": "Em 18 de julho de 1870, o Vaticano I declarou que o papa, ao definir solenemente uma doutrina de fé ou moral para toda a Igreja (ex cathedra), não pode errar. A decisão enfrentou oposição de parte dos bispos, e um grupo que a rejeitou formou a Igreja Veterocatólica.",
+      "reforma": "Para os protestantes, só as Escrituras são regra infalível de fé e prática (2Tm 3.16-17). Lutero já havia afirmado, no Debate de Leipzig (1519), que papas e concílios podem errar.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "igreja-de-deus",
+      "ano": 1886,
+      "titulo": "Igreja de Deus (Cleveland)",
+      "categoria": "movimentos",
+      "resumo": "Em 1886, no Tennessee (EUA), o pastor batista Richard Spurling e um pequeno grupo formaram a União Cristã, buscando restaurar a fé e a santidade do Novo Testamento. O grupo adotou o nome Igreja de Deus em 1907, aderiu ao pentecostalismo e fixou sua sede em Cleveland, Tennessee. Hoje é uma das maiores denominações pentecostais do mundo.",
+      "fonte": "Vinson Synan, O Século do Espírito Santo",
+      "nota": "PDF: 1884. Confirmada como a Igreja de Deus (Cleveland), cuja origem é de 1886."
+    },
+    {
+      "id": "rua-azusa",
+      "ano": 1906,
+      "titulo": "Avivamento da Rua Azusa",
+      "categoria": "avivamento",
+      "destaque": true,
+      "imagem": "img/rua-azusa.webp",
+      "resumo": "Em Los Angeles, o pregador afro-americano William J. Seymour liderou reuniões num antigo templo da Rua Azusa, marcadas por oração intensa, batismo no Espírito Santo e falar em línguas. Negros, brancos, latinos e imigrantes adoravam juntos, algo raro na época. O avivamento, que se estendeu por cerca de três anos, é considerado o berço do pentecostalismo moderno.",
+      "fonte": "Vinson Synan, O Século do Espírito Santo",
+      "imagemCredito": {
+        "titulo": "Missão da Fé Apostólica, Rua Azusa (1907)",
+        "autor": "Flower Pentecostal Heritage Center",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Apostolic_Faith_Gospel_Mission_1907.jpg"
+      }
+    },
+    {
+      "id": "ad-brasil",
+      "ano": 1911,
+      "brasil": true,
+      "titulo": "Assembleia de Deus no Brasil",
+      "categoria": "movimentos",
+      "destaque": true,
+      "imagem": "img/ad-brasil.webp",
+      "resumo": "Os missionários suecos Daniel Berg e Gunnar Vingren, vindos dos Estados Unidos, chegaram a Belém do Pará em 1910 e passaram a frequentar uma igreja batista. A ênfase no batismo no Espírito Santo gerou divisão, e em 18 de junho de 1911 o grupo fundou a Missão de Fé Apostólica, que em 1918 adotou o nome Assembleia de Deus. Hoje é a maior denominação evangélica do Brasil.",
+      "fonte": "Isael de Araujo, Dicionário do Movimento Pentecostal",
+      "imagemPosicao": "center 20%",
+      "imagemCredito": {
+        "titulo": "Gunnar Vingren",
+        "autor": "autor desconhecido",
+        "licenca": "Domínio público",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Gunnar_Vingren.jpg"
+      }
+    },
+    {
+      "id": "ad-eua",
+      "ano": 1914,
+      "titulo": "Assembleias de Deus nos EUA",
+      "categoria": "movimentos",
+      "resumo": "Em abril de 1914, cerca de 300 pastores e líderes pentecostais reuniram-se em Hot Springs, Arkansas, e formaram as Assembleias de Deus nos Estados Unidos, para dar organização, formação doutrinária e apoio missionário às igrejas nascidas do avivamento. A Assembleia de Deus brasileira surgiu de forma independente, mas manteve laços com a americana.",
+      "fonte": "Vinson Synan, O Século do Espírito Santo"
+    },
+    {
+      "id": "ad-madureira",
+      "ano": 1929,
+      "brasil": true,
+      "titulo": "Assembleia de Deus Madureira (Paulo Macalão)",
+      "categoria": "movimentos",
+      "resumo": "O pastor Paulo Leivas Macalão, um dos primeiros obreiros brasileiros da Assembleia de Deus, iniciou em 1929 o trabalho no bairro de Madureira, no Rio de Janeiro. A igreja cresceu e formou uma rede própria de congregações por todo o país, o Ministério de Madureira, que mais tarde organizou sua própria convenção nacional.",
+      "fonte": "Isael de Araujo, Dicionário do Movimento Pentecostal"
+    },
+    {
+      "id": "assuncao",
+      "ano": 1950,
+      "titulo": "Dogma da Assunção de Maria",
+      "categoria": "doutrina",
+      "resumo": "Em 1º de novembro de 1950, o papa Pio XII declarou como dogma que Maria, ao fim de sua vida terrena, foi elevada em corpo e alma à glória celeste. Foi a única vez, desde 1870, que um papa usou formalmente a infalibilidade. A crença já existia em tradições antigas, mas não aparece nas Escrituras.",
+      "reforma": "Os protestantes rejeitam o dogma por falta de base bíblica e o viram como um novo distanciamento entre as confissões. Afirmam que a esperança da ressurreição do corpo é a mesma para todos os crentes, na volta de Cristo (1Co 15.22-23).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "vaticano-2",
+      "ano": 1962,
+      "anoFim": 1965,
+      "titulo": "Concílio Vaticano II",
+      "categoria": "concilios",
+      "resumo": "Convocado por João XXIII para o 'aggiornamento' (atualização) da Igreja, foi o maior concílio da história, com mais de 2 mil bispos. Incentivou a leitura da Bíblia pelos fiéis, permitiu a liturgia nas línguas locais, afirmou a liberdade religiosa e abriu o diálogo com outras igrejas, passando a chamar os protestantes de 'irmãos separados'. As doutrinas definidas em Trento e no Vaticano I foram mantidas.",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo"
+    },
+    {
+      "id": "missa-vernacula",
+      "ano": 1965,
+      "titulo": "Missa nas línguas locais",
+      "categoria": "doutrina",
+      "resumo": "A constituição Sacrosanctum Concilium (1963) permitiu o uso das línguas locais na liturgia, e a partir de 1964-1965 as missas passaram a ser celebradas na língua do povo, com o padre voltado para a congregação. O latim continuou sendo a língua oficial da Igreja e ainda pode ser usado.",
+      "reforma": "Quatro séculos antes, os reformadores já haviam adotado o culto na língua do povo, com base no princípio de que todos devem entender o que se ora e se ouve na igreja (1Co 14.19).",
+      "fonte": "Justo L. González, História Ilustrada do Cristianismo",
+      "nota": "PDF: 'Abandona a missa em latim'. O Vaticano II permitiu as línguas locais (1963), sem abolir o latim; a mudança foi implantada entre 1964 e 1970."
+    }
+  ]
+}
