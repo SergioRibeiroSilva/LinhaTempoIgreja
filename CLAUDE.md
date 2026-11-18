@@ -33,9 +33,13 @@ Site estático com uma linha do tempo interativa da história da Igreja (ano 0 a
 | `sw.js` / `manifest.webmanifest` | Funcionamento offline e instalação como aplicativo |
 | `img/` | `<id>.webp` (1200 px) e `<id>-640.webp`, ícones, `compartilhar.jpg` (prévia 1200×630) |
 | `qrcodes/` | QR Codes (PNG/SVG), `qrcodes.json` e a folha `imprimir.html` |
-| `ferramentas/` | Scripts de manutenção (ver `ferramentas/README.md`) |
+| `ferramentas/` | Scripts de manutenção: validador, imagens, capa, ícones e QR Codes (ver `ferramentas/README.md`) |
+| `video/` | Gerador do vídeo tutorial de 40 s (ver `video/README.md` e `video/roteiro.md`) |
+| `README.md` | Página do repositório no GitHub, para o leitor (recursos, como usar, como editar, créditos) |
 
-**Sem etapa de compilação e sem dependências:** HTML, CSS e JavaScript puros. Não introduza frameworks, bundlers ou bibliotecas externas (o site precisa funcionar offline). As únicas coisas externas são as fontes Cinzel e Inter, do Google Fonts.
+**O site não tem etapa de compilação nem dependências:** HTML, CSS e JavaScript puros. Não introduza frameworks, bundlers ou bibliotecas externas (o site precisa funcionar offline). As únicas coisas externas são as fontes Cinzel e Inter, do Google Fonts.
+
+As **ferramentas e o vídeo** ficam fora do site e têm dependências próprias, já instaladas neste computador: Node.js, Python com `pillow`, `segno`, `numpy` e `imageio-ffmpeg` (que traz o FFmpeg), e o pacote `playwright-core` dentro de `video/` (usa o Google Chrome instalado). O `.gitignore` deixa de fora `.claude/`, `ferramentas/imagens/originais/` e `video/saida/` (quadros, áudio e MP4 gerados).
 
 ### Como o `app.js` funciona
 
@@ -52,6 +56,14 @@ Site estático com uma linha do tempo interativa da história da Igreja (ano 0 a
 2. **Antes de publicar,** rode `node ferramentas/validar.js` (confere dados, imagens, roteiros e versões).
 3. Mudou roteiros? Rode `python ferramentas/gerar_qrcodes.py`. Os links de roteiro já impressos dependem dos `id`s: não renomeie roteiros existentes.
 4. Mantenha o contraste do texto em pelo menos 4,5:1 nos modos claro e escuro (as etiquetas de categoria usam `color-mix` com preto no claro e com branco no escuro).
+5. Mudou a capa ou o texto de compartilhamento? Rode `python ferramentas/gerar_capa.py`. As etiquetas Open Graph do `index.html` usam endereços absolutos do site publicado. O WhatsApp guarda as prévias por um tempo.
+
+## Vídeo tutorial (`video/`)
+
+- Gerar: na pasta `video/`, `node gravar.mjs`, depois `python sons.py` e `python montar.py`. Resultado: `video/saida/tutorial.mp4` (1080×1920, cerca de 40 s, menos de 16 MB para o WhatsApp).
+- `gravar.mjs` grava o **site publicado** no Chrome invisível, com `--force-device-scale-factor=3` (sem isso, a gravação sai em 360×640). Ele tem uma tela inicial ("Aplicativo · Breve História da Igreja · Como utilizar"), as legendas (verde `#16463A`, filete dourado, letras brancas, escolha do autor), as marcas de toque e a tela final com QR Code.
+- **O script depende dos seletores do site:** `#btnComecar`, `#btnInicio`, `.epoca-btn[data-epoca]`, `.parada`, `.titulo`, `#painelFechar`, `#painelConteudo`, `#btnRoteiros`, `#campoBusca`, `.rot-btn[data-roteiro="reforma"]`, `#btnApresentar`, `#btnProximo`, e do evento "Reforma Protestante". Ao renomear algo assim no site, atualize o `gravar.mjs` e gere o vídeo de novo.
+- Os sons e a música são sintetizados em `sons.py`, sem direitos autorais. Uma `musica.wav` própria e uma futura `narracao.wav` (44,1 kHz) colocadas em `video/` são misturadas automaticamente. Ainda não há narração; o texto para gravar está em `video/roteiro.md`.
 
 ## Testes
 
@@ -59,3 +71,4 @@ Site estático com uma linha do tempo interativa da história da Igreja (ano 0 a
 - Teste no celular (375×812), no celular deitado (812×375), no desktop, no projetor no modo apresentação (1280×720 e 1024×768) e no modo escuro. Confira se as setas do rodapé ficam visíveis.
 - No navegador interno do app, com o painel escondido, as animações e os temporizadores ficam pausados: as capturas de tela podem mostrar estados intermediários. Confira por JavaScript antes de concluir que é defeito.
 - O service worker e o cache de memória do navegador podem servir arquivos antigos durante os testes: recarregue ou aumente a versão.
+- Tarefas agendadas rodam sem ninguém para aprovar permissões. Uma tentativa anterior não conseguiu ligar o servidor local por isso. Não agende tarefas que dependam de aprovação (servidor, instalação, publicação).
