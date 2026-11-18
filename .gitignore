@@ -1,6 +1,9 @@
 # Configuração local do assistente (servidor de testes)
 .claude/
 
+# Imagens originais baixadas (as versões do site ficam em img/)
+ferramentas/imagens/originais/
+
 # Arquivos do sistema
 Thumbs.db
 desktop.ini
