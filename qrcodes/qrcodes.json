@@ -1,0 +1,66 @@
+[
+  {
+    "arquivo": "site",
+    "nome": "Linha do tempo completa",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/",
+    "descricao": "Todos os eventos, do ano 0 a 2000.",
+    "qtd": 125,
+    "versao": "5-Q"
+  },
+  {
+    "arquivo": "roteiro-igreja-primitiva",
+    "nome": "A Igreja Primitiva",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=igreja-primitiva",
+    "descricao": "Dos apóstolos ao fim das perseguições (51-313).",
+    "qtd": 19,
+    "versao": "7-Q"
+  },
+  {
+    "arquivo": "roteiro-concilios",
+    "nome": "Os Concílios",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=concilios",
+    "descricao": "De Jerusalém ao Vaticano II: o que cada concílio decidiu.",
+    "qtd": 24,
+    "versao": "6-Q"
+  },
+  {
+    "arquivo": "roteiro-doutrinas",
+    "nome": "Doutrinas: Roma e a Reforma",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=doutrinas",
+    "descricao": "Como surgiram práticas e dogmas, e o que os reformadores responderam.",
+    "qtd": 18,
+    "versao": "6-Q"
+  },
+  {
+    "arquivo": "roteiro-reforma",
+    "nome": "A Reforma Protestante",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=reforma",
+    "descricao": "Precursores, a Reforma e seus desdobramentos (1328-1611).",
+    "qtd": 19,
+    "versao": "6-Q"
+  },
+  {
+    "arquivo": "roteiro-biblia",
+    "nome": "A Bíblia através dos séculos",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=biblia",
+    "descricao": "Cânon, traduções e a imprensa: como a Bíblia chegou até nós.",
+    "qtd": 13,
+    "versao": "6-Q"
+  },
+  {
+    "arquivo": "roteiro-avivamentos",
+    "nome": "Avivamentos e Missões",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=avivamentos",
+    "descricao": "Do pietismo ao pentecostalismo (1675-1929).",
+    "qtd": 17,
+    "versao": "6-Q"
+  },
+  {
+    "arquivo": "roteiro-brasil",
+    "nome": "O Protestantismo no Brasil",
+    "url": "https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=brasil",
+    "descricao": "Do primeiro culto em 1557 às Assembleias de Deus.",
+    "qtd": 7,
+    "versao": "6-Q"
+  }
+]

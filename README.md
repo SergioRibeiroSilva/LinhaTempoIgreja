@@ -87,6 +87,12 @@ Acrescente ao endereço do site:
 
 Exemplo: `https://sergioribeirosilva.github.io/LinhaTempoIgreja/?roteiro=reforma`
 
+### QR Codes
+
+A pasta [`qrcodes/`](qrcodes/) tem um QR Code para o site e um para cada roteiro, em **PNG** (para impressão comum) e **SVG** (para banners, sem perder qualidade). A folha [`qrcodes/imprimir.html`](qrcodes/imprimir.html) reúne tudo em duas páginas A4, um cartaz para o mural e um quadro com os roteiros, prontas para imprimir.
+
+A versão on-line da folha fica em `https://sergioribeirosilva.github.io/LinhaTempoIgreja/qrcodes/imprimir.html`.
+
 ## Editar o conteúdo
 
 Todo o conteúdo fica em **`data/eventos.json`**, que pode ser editado com qualquer editor de texto simples. Cuidado com as aspas `"` e as vírgulas: elas são necessárias.
@@ -208,6 +214,7 @@ O site é publicado gratuitamente pelo **GitHub Pages**, em `https://sergioribei
 ├── js/app.js              navegação, painel, busca, roteiros e apresentação
 ├── data/eventos.json      conteúdo: eventos, categorias, épocas e roteiros
 ├── img/                   imagens dos marcos e ícones do aplicativo
+├── qrcodes/               QR Codes do site e dos roteiros, e folha para impressão
 ├── sw.js                  funcionamento offline
 └── manifest.webmanifest   dados para instalar como aplicativo
 ```
