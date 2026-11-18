@@ -4,6 +4,9 @@
 # Imagens originais baixadas (as versões do site ficam em img/)
 ferramentas/imagens/originais/
 
+# Vídeo: quadros, áudio e MP4 gerados (refaça com os scripts da pasta video/)
+video/saida/
+
 # Arquivos do sistema
 Thumbs.db
 desktop.ini
