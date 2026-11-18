@@ -56,7 +56,10 @@ body {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   grid-template-columns: minmax(0, 1fr);
+  height: 100vh;
   height: 100dvh;
+  /* altura visível real, medida pelo app.js: evita que barras do navegador ou do sistema cubram o rodapé */
+  height: var(--altura, 100dvh);
   overflow: hidden;
   -webkit-tap-highlight-color: transparent;
 }
@@ -80,6 +83,10 @@ body[data-epoca="moderna"] .fundo[data-epoca="moderna"],
 body[data-epoca="contemporanea"] .fundo[data-epoca="contemporanea"] { opacity: 1; }
 
 .topo, .palco, .rodape { position: relative; z-index: 1; }
+/* posições fixas na grade: se o topo for escondido (apresentação em tela baixa), o rodapé não sai da tela */
+.topo { grid-row: 1; }
+.palco { grid-row: 2; }
+.rodape { grid-row: 3; }
 
 /* ===== Abertura ===== */
 .abertura {
@@ -416,6 +423,32 @@ body.apresentacao .cartao-reforma {
 body.apresentacao .cartao-epoca .epoca-nome { font-size: clamp(2.4rem, 5.5vw, 4.8rem); }
 body.apresentacao .cartao-epoca .epoca-faixa { font-size: clamp(1.3rem, 2.4vw, 2rem); }
 body.apresentacao .cartao-epoca .epoca-info { font-size: clamp(1rem, 1.6vw, 1.35rem); }
+/* setas mais visíveis na apresentação (projetor e celular) */
+body.apresentacao .nav-btn {
+  width: 52px; height: 52px; font-size: 2rem; border: 0; color: #fff;
+  background: var(--ce); box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+}
+body.apresentacao .nav-btn:disabled { opacity: .25; }
+/* telas baixas (celular deitado): mais espaço para o cartão */
+@media (max-height: 520px) {
+  body.apresentacao .topo { display: none; }
+  body.apresentacao .item { grid-template-rows: minmax(0, 1fr) 34px; }
+  body.apresentacao .item::after { bottom: 16px; }
+  body.apresentacao .ponto { bottom: 10px; }
+  body.apresentacao .rotulo, body.apresentacao .seculo .marco::before { display: none; }
+  body.apresentacao .parada { padding-top: 8px; }
+  body.apresentacao .rodape { padding-top: 0; padding-bottom: calc(env(safe-area-inset-bottom) + 4px); }
+  body.apresentacao .nav-btn { width: 46px; height: 46px; }
+  body.apresentacao .corpo { padding: 14px 20px; gap: 6px; }
+  body.apresentacao .data { font-size: 1.5rem; }
+  body.apresentacao .titulo, body.apresentacao .destaque .titulo { font-size: 1.25rem; }
+  body.apresentacao .teaser, body.apresentacao .destaque .teaser { font-size: 1rem; line-height: 1.5; }
+  body.apresentacao .cartao-reforma { font-size: .92rem; }
+  body.apresentacao .destaque .cartao { flex-direction: row; }
+  body.apresentacao .destaque .arte { flex: 0 0 36%; aspect-ratio: auto; align-self: stretch; }
+  body.apresentacao .cartao-epoca { padding: 18px; }
+  body.apresentacao .cartao-epoca .epoca-nome { font-size: 2rem; }
+}
 body.apresentacao .txt-ligar { display: none; }
 body.apresentacao .txt-sair { display: inline; }
 @media (min-width: 900px) {

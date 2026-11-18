@@ -693,10 +693,21 @@
   }
 
   // ---------- início ----------
-  window.addEventListener('resize', () => {
-    medir();
-    if (atual >= 0) trilha.scrollTo({ left: centros[atual] - trilha.clientWidth / 2 });
-  });
+  // Altura visível real da tela. Em alguns celulares, "100% da altura" inclui a área coberta
+  // pela barra do navegador ou do sistema, e o rodapé (com as setas) ficaria escondido.
+  const ajustarAltura = () => document.documentElement.style.setProperty('--altura', window.innerHeight + 'px');
+  ajustarAltura();
+  const aoRedimensionar = () => {
+    ajustarAltura();
+    requestAnimationFrame(() => {
+      medir();
+      if (atual >= 0) trilha.scrollTo({ left: centros[atual] - trilha.clientWidth / 2 });
+    });
+  };
+  window.addEventListener('resize', aoRedimensionar);
+  window.addEventListener('orientationchange', () => setTimeout(aoRedimensionar, 300));
+  document.addEventListener('fullscreenchange', () => setTimeout(aoRedimensionar, 150));
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', ajustarAltura);
 
   fetch('data/eventos.json')
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

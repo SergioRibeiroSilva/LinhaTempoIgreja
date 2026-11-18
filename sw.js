@@ -2,13 +2,14 @@
    - Páginas, estilos, scripts e dados: busca na rede primeiro (para ver atualizações)
      e usa a cópia guardada quando estiver offline.
    - Imagens e fontes: usa a cópia guardada; se não houver, busca e guarda.
-   Ao mudar arquivos de forma importante, aumente o número da VERSAO. */
-const VERSAO = 'hdi-v3';
+   Ao mudar arquivos de forma importante, aumente o número da VERSAO aqui
+   e o "?v=" de estilo.css e app.js no index.html (use o mesmo número). */
+const VERSAO = 'hdi-v5';
 const NUCLEO = [
   './',
   'index.html',
-  'css/estilo.css',
-  'js/app.js',
+  'css/estilo.css?v=5',
+  'js/app.js?v=5',
   'data/eventos.json',
   'manifest.webmanifest',
   'img/icone-192.png',

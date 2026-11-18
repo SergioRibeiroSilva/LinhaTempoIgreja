@@ -178,13 +178,18 @@ Se um `id` estiver escrito errado, aquele evento simplesmente não aparece; o si
 
 <br>
 
-O arquivo `sw.js` guarda uma cópia do site nos aparelhos, para o uso offline. Ao fazer mudanças importantes (muitos textos, estilos, scripts ou imagens novas), aumente o número da versão no início do arquivo:
+Os navegadores guardam cópias dos arquivos para abrir o site mais rápido (e offline). Ao mudar **estilos (`css/estilo.css`) ou scripts (`js/app.js`)**, aumente a versão em dois lugares, sempre com o mesmo número:
 
-```js
-const VERSAO = 'hdi-v3';   // mude para 'hdi-v4', depois 'hdi-v5'...
-```
+1. No início de `sw.js`:
 
-Assim, quem já visitou o site recebe a versão nova por completo.
+   ```js
+   const VERSAO = 'hdi-v5';   // mude para 'hdi-v6', depois 'hdi-v7'...
+   ```
+
+   e, logo abaixo, `'css/estilo.css?v=5'` e `'js/app.js?v=5'`.
+2. No `index.html`: `css/estilo.css?v=5` e `js/app.js?v=5`.
+
+Assim, quem já visitou o site recebe a versão nova por completo. Mudanças só no texto dos eventos (`data/eventos.json`) aparecem sozinhas.
 
 </details>
 
